@@ -30,3 +30,4 @@ xmlhttp.onreadystatechange = function () {
 };
 xmlhttp.open('get', url, 'true');
 xmlhttp.send();
+

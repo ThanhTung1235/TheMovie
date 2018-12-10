@@ -11,7 +11,9 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.d-none{
+    display: none;
+}
 .pd-0 {
     padding: 0;
 }
@@ -23,7 +25,9 @@
 .pd-l {
     padding-left: 10px;
 }
-
+.pd-l2{
+    padding-left: 20px;
+}
 .mr-t {
     margin-top: 10px;
 }
@@ -31,7 +35,12 @@
 .mr-t3 {
     margin-top: 30px;
 }
-
+.mr-r{
+    margin-right: 10px;
+}
+.mr-2{
+    margin-right: 20px;
+}
 .col-1 {
     width: 8.33%;
 }
@@ -116,7 +125,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background: #081c24;
+    background: #081C24;
     color: white;
     width: 100%;
     z-index: 999;
@@ -215,7 +224,43 @@ header {
 .search-input:focus {
     outline: none;
 }
-
+#btn-bars{
+    cursor: pointer;
+}
+.responsive-menu{
+    background: rgba(8,28,36,0.95);
+    position: fixed;
+    height: 100%;
+    width: 0;
+    padding: 0;
+    top: 80px;
+    transition:all 0.3s;
+    left: 0;
+}
+.active{
+    width: 90%;
+    padding:0 10px;
+}
+.menu-icon{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.menu-mobile{
+    display: none;
+}
+.menu-mobile .nav-small .nav-item>.nav-link{
+    font-size: 16px;
+}
+.text{
+    text-decoration: none;
+    color: inherit;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.nav-mobile-item{
+    padding:5px 20px;
+}
 ::placeholder {
     font-style: italic;
     font-size: 16px;
@@ -441,7 +486,6 @@ footer {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-
 }
 .more-info {
     border-top: 1px solid #E3E3E3;
@@ -472,10 +516,6 @@ footer {
 }
 /**/
 @media only screen and (max-width: 1024px) {
-    .info-movie {
-        /*display: none;*/
-    }
-
     .movie-card {
         display: block;
         width: 30%;
@@ -521,7 +561,9 @@ footer {
     .main .main-item {
         width: 100%;
     }
-
+    .menu-mobile{
+        display: flex;
+    }
     footer {
         background: linear-gradient(to top right, #2455a9, #00d573);
     }
