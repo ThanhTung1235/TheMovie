@@ -12,7 +12,7 @@
 <body>
 <header>
     <nav class="nav">
-        <div class="container">
+        <div class="container d-hidden">
             <div class="d-flex">
                 <div></div>
                 <ul class="nav-small d-flex">
@@ -42,6 +42,7 @@
                         <a href="Index.html">
                             <img class="img-fluid" src="../Assets/Logo-sm.png" alt="">
                         </a>
+
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Discover</a>
@@ -93,6 +94,67 @@
                         <a href="#" class="nav-link"><i class="fas fa-user"></i></a>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="menu-mobile container d-flex">
+            <div class="menu-icon">
+                <i id="btn-bars" class="fas fa-bars pd-l2"></i>
+            </div>
+            <div id="menu-respon" class="responsive-menu container">
+                <ul class="lst-none nav-mobile d-none">
+                    <li class="nav-mobile-item">
+                        <a class="no_click text" href="/discover">Discover</a>
+                        <ul class="sub_menu discover hide">
+                            <!--<li><a href="/discover/movie">Movies</a></li>-->
+                            <!--<li><a href="/discover/tv">TV Shows</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a class="no_click text" href="/movie">Movies</a>
+                        <ul class="sub_menu movie hide">
+                            <!--<li><a href="/movie">Popular</a></li>-->
+                            <!--<li><a href="/movie/top-rated">Top Rated</a></li>-->
+                            <!--<li><a href="/movie/upcoming">Upcoming</a></li>-->
+                            <!--<li><a href="/movie/now-playing">Now Playing</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a class="no_click text" href="/tv">TV Shows</a>
+                        <ul class="sub_menu tv hide">
+                            <!--<li><a href="/tv">Popular</a></li>-->
+                            <!--<li><a href="/tv/top-rated">Top Rated</a></li>-->
+                            <!--<li><a href="/tv/on-the-air">On TV</a></li>-->
+                            <!--<li><a href="/tv/airing-today">Airing Today</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a class="no_click text" href="/person">People</a>
+                        <!--<ul class="sub_menu person hide">-->
+                        <!--<li><a href="/person">Popular People</a></li>-->
+                        <!--</ul>-->
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a class="text" href="/discuss">Discussions</a>
+                    </li>
+                    <ul class="lst-none nav-small pd-l2">
+                        <li class="nav-item mr-t3"><a class="nav-link" href="/bible">Contribution Bible</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/apps">Apps</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/discuss">Forums</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/leaderboard">Leaderboard</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/contribute">Contribute</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/documentation/api">API</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/talk">Support</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/about">About</a></li>
+                    </ul>
+                </ul>
+
+            </div>
+            <div style="margin: auto">
+                <img width="50"  src="../Assets/Logo-sm.png" alt="Logo">
+            </div>
+            <div>
+                <i class="menu-icon mr-2 fas fa-bell"></i>
+                <i class="menu-icon fas fa-user"></i>
             </div>
         </div>
     </nav>
@@ -197,5 +259,6 @@
     </div>
 </footer>
 <script src="../Js/top-rate.js"></script>
+<script src="../Js/index.js"></script>
 </body>
 </html>

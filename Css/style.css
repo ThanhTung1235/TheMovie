@@ -153,7 +153,7 @@ header {
     display: none;
 }
 
-.nav-hover > li > a {
+.item-link{
     color: white;
     text-decoration: none;
     margin-right: 30px;
@@ -237,6 +237,9 @@ header {
     transition:all 0.3s;
     left: 0;
 }
+.sub-menu li{
+    padding-top: 10px;
+}
 .active{
     width: 90%;
     padding:0 10px;
@@ -260,6 +263,9 @@ header {
 }
 .nav-mobile-item{
     padding:5px 20px;
+}
+.nav-mobile-item .sub-menu{
+    list-style: none;
 }
 ::placeholder {
     font-style: italic;
