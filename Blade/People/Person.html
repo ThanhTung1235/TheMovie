@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="../Css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular people</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Css/Style.css">
+    <link rel="stylesheet" href="../../Css/style.css">
 </head>
 <body>
 <header>
@@ -39,8 +37,8 @@
             <div class="d-flex">
                 <ul class="d-flex nav-bar">
                     <li class="logo">
-                        <a href="Index.html">
-                            <img class="img-fluid" src="../Assets/Logo-sm.png" alt="">
+                        <a href="../Index.html">
+                            <img class="img-fluid" src="../../Assets/Logo-sm.png"/>
                         </a>
 
                     </li>
@@ -54,10 +52,11 @@
                     <li class="nav-item">
                         <a href="#" class="nav-link">Movies</a>
                         <ul class="d-flex nav-bar nav-hover">
-                            <li class="item-hover"><a class="item-link" href="Popular.html">Popular</a></li>
-                            <li class="item-hover"><a class="item-link" href="TopRate.html">Top Rated</a></li>
-                            <li class="item-hover"><a class="item-link" href="UpComing.html">Upcoming</a></li>
-                            <li class="item-hover"><a class="item-link" href="Nowplaying.html">Now Playing</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/Popular.html">Popular</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/TopRate.html">Top Rated</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/UpComing.html">Upcoming</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/Nowplaying.html">Now Playing</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -112,10 +111,10 @@
                     <li class="nav-mobile-item">
                         <a class="no_click text" onclick="Movies()" href="#">Movies</a>
                         <ul class="sub-menu movie d-none">
-                            <li><a class="item-link" href="Popular.html">Popular</a></li>
-                            <li><a class="item-link" href="TopRate.html">Top Rated</a></li>
-                            <li><a class="item-link" href="UpComing.html">Upcoming</a></li>
-                            <li><a class="item-link" href="Nowplaying.html">Now Playing</a></li>
+                            <li><a class="item-link" href="../Movies/Popular.html">Popular</a></li>
+                            <li><a class="item-link" href="../Movies/TopRate.html">Top Rated</a></li>
+                            <li><a class="item-link" href="../Movies/UpComing.html">Upcoming</a></li>
+                            <li><a class="item-link" href="../Movies/Nowplaying.html">Now Playing</a></li>
                         </ul>
                     </li>
                     <li class="nav-mobile-item">
@@ -134,7 +133,7 @@
                         </ul>
                     </li>
                     <li class="nav-mobile-item">
-                        <a  class="text" href="/discuss">Discussions</a>
+                        <a class="text" href="/discuss">Discussions</a>
                     </li>
                     <ul class="lst-none nav-small pd-l2">
                         <li class="nav-item mr-t3"><a class="nav-link" href="/bible">Contribution Bible</a></li>
@@ -150,7 +149,7 @@
 
             </div>
             <div style="margin: auto">
-                <img width="50"  src="../Assets/Logo-sm.png" alt="Logo">
+                <img width="50" src="../../Assets/Logo-sm.png" alt="Logo">
             </div>
             <div>
                 <i class="menu-icon mr-2 fas fa-bell"></i>
@@ -168,39 +167,32 @@
     </form>
 </header>
 <main>
-    <div  class="container">
-        <h2 class="title-article">Popular Movies</h2>
-        <div id="test" class="list-movie">
-            <!--<div class="movie-card">-->
-                <!--<div class="img-movie">-->
-                    <!--<img class="img-fluid" src="../Assets/Venom.jpg" alt="">-->
+    <div class="container">
+        <h2 class="title-person">Popular People</h2>
+        <div id="list_person" class="list_person">
+            <!--<div class="person-card">-->
+                <!--<div class="person-thumbnail">-->
+                    <!--<img class="img-fluid" src="https://vignette.wikia.nocookie.net/huyphuc1981/images/4/4f/Noavatar.jpg" alt="">-->
                 <!--</div>-->
-                <!--<div class="info">-->
-                    <!--<h3 class="pd-l">Venom</h3>-->
-                    <!--<p class="pd-l ">October 5,2018</p>-->
-                    <!--<p class="info-content pd-l d-hidden-l"> Eddie Brock is a reporter—investigating people who want to go-->
-                        <!--unnoticed. But after he makes a-->
-                        <!--terrible discovery at the Life Foundation, he begins to transform into ‘Venom’. The Foundation has-->
-                        <!--discovered creatures…</p>-->
-                    <!--<div class="more-info">-->
-                        <!--<a class="pd-l" href="#">More info</a>-->
-                    <!--</div>-->
+                <!--<div class="person-info">-->
+                    <!--<p>Scarlett Johansson</p>-->
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorum eveniet facere in maxime-->
+                        <!--nostrum porro, quas qui ratione reiciendis tempora veritatis? Aperiam, aut, deserunt. Architecto-->
+                        <!--cupiditate dolore inventore possimus.</p>-->
                 <!--</div>-->
             <!--</div>-->
-
         </div>
 
-
     </div>
-    <!--<div class="container" id="test"></div>-->
 </main>
+
 
 <footer>
     <div class="container footer-content">
         <div class="row">
             <div class="col-4 col-sm">
                 <div class="logo-footer">
-                    <img class="d-hidden" src="../Assets/Logo-sm.png" alt="">
+                    <img class="d-hidden" src="../../Assets/Logo-sm.png" alt="">
                     <div class="btn-user">
                         <a href="#">Hi User !</a>
                     </div>
@@ -259,7 +251,7 @@
         </div>
     </div>
 </footer>
-<script src="../Js/script.js"></script>
-<script src="../Js/index.js"></script>
+<script src="../../Js/index.js"></script>
+<script src="../../Js/People/person.js"></script>
 </body>
 </html>

@@ -524,6 +524,41 @@ footer {
     font-size: 13px;
 }
 /**/
+/*People*/
+.person-card{
+    width: 22%;
+    height: 22%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+}
+.person-info{
+    padding: 10px;
+}
+.person-info p:first-child{
+    font-weight: bold;
+    font-size: 18px;
+}
+.person-info p:last-child{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list_person{
+    display: flex;
+    flex-flow: row wrap;
+}
+.person-thumbnail{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 215px;
+    width: 215px;
+}
+.title-person{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/**/
 @media only screen and (max-width: 1024px) {
     .movie-card {
         display: block;
@@ -589,9 +624,9 @@ footer {
 
 
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 640px) {
     .movie-card {
-        width: 29%;
+        width: 45%;
     }
 }
 @media only screen and (max-width: 500px) {
