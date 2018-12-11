@@ -544,7 +544,9 @@ footer {
     .col-sm {
         width: 100%;
     }
-
+    main{
+        margin-top: 137px;
+    }
     .feature {
         display: block;
     }
