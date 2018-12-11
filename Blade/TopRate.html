@@ -47,32 +47,32 @@
                     <li class="nav-item">
                         <a href="#" class="nav-link">Discover</a>
                         <ul class="d-flex nav-bar nav-hover">
-                            <li class="item-hover"><a href="#">Movies</a></li>
-                            <li class="item-hover"><a href="#">TV Shows</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">Movies</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">TV Shows</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Movies</a>
                         <ul class="d-flex nav-bar nav-hover">
-                            <li class="item-hover"><a href="Popular.html">Popular</a></li>
-                            <li class="item-hover"><a href="TopRate.html">Top Rated</a></li>
-                            <li class="item-hover"><a href="UpComing.html">Upcoming</a></li>
-                            <li class="item-hover"><a href="Nowplaying.html">Now Playing</a></li>
+                            <li class="item-hover"><a class="item-link" href="Popular.html">Popular</a></li>
+                            <li class="item-hover"><a class="item-link" href="TopRate.html">Top Rated</a></li>
+                            <li class="item-hover"><a class="item-link" href="UpComing.html">Upcoming</a></li>
+                            <li class="item-hover"><a class="item-link" href="Nowplaying.html">Now Playing</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">TvShows</a>
                         <ul class="d-flex nav-bar nav-hover">
-                            <li class="item-hover"><a href="#">Popular</a></li>
-                            <li class="item-hover"><a href="#">Top Rated</a></li>
-                            <li class="item-hover"><a href="#">On TV</a></li>
-                            <li class="item-hover"><a href="#">Airing Today</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">Popular</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">Top Rated</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">On TV</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">Airing Today</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">People</a>
                         <ul class="d-flex nav-bar nav-hover">
-                            <li class="item-hover"><a href="#">Popular People</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">Popular People</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -98,43 +98,43 @@
         </div>
         <div class="menu-mobile container d-flex">
             <div class="menu-icon">
-                <i id="btn-bars" class="fas fa-bars pd-l2"></i>
+                <i id="btn-bars" class="fas fa-bars mr-l2"></i>
             </div>
             <div id="menu-respon" class="responsive-menu container">
                 <ul class="lst-none nav-mobile d-none">
                     <li class="nav-mobile-item">
-                        <a class="no_click text" href="/discover">Discover</a>
-                        <ul class="sub_menu discover hide">
-                            <!--<li><a href="/discover/movie">Movies</a></li>-->
-                            <!--<li><a href="/discover/tv">TV Shows</a></li>-->
+                        <a class="no_click text" onclick="Discover()" href="#">Discover</a>
+                        <ul class="sub-menu discover d-none">
+                            <li><a class="item-link" href="/discover/movie">Movies</a></li>
+                            <li><a class="item-link" href="/discover/tv">TV Shows</a></li>
                         </ul>
                     </li>
                     <li class="nav-mobile-item">
-                        <a class="no_click text" href="/movie">Movies</a>
-                        <ul class="sub_menu movie hide">
-                            <!--<li><a href="/movie">Popular</a></li>-->
-                            <!--<li><a href="/movie/top-rated">Top Rated</a></li>-->
-                            <!--<li><a href="/movie/upcoming">Upcoming</a></li>-->
-                            <!--<li><a href="/movie/now-playing">Now Playing</a></li>-->
+                        <a class="no_click text" onclick="Movies()" href="#">Movies</a>
+                        <ul class="sub-menu movie d-none">
+                            <li><a class="item-link" href="Popular.html">Popular</a></li>
+                            <li><a class="item-link" href="TopRate.html">Top Rated</a></li>
+                            <li><a class="item-link" href="UpComing.html">Upcoming</a></li>
+                            <li><a class="item-link" href="Nowplaying.html">Now Playing</a></li>
                         </ul>
                     </li>
                     <li class="nav-mobile-item">
-                        <a class="no_click text" href="/tv">TV Shows</a>
-                        <ul class="sub_menu tv hide">
-                            <!--<li><a href="/tv">Popular</a></li>-->
-                            <!--<li><a href="/tv/top-rated">Top Rated</a></li>-->
-                            <!--<li><a href="/tv/on-the-air">On TV</a></li>-->
-                            <!--<li><a href="/tv/airing-today">Airing Today</a></li>-->
+                        <a class="no_click text" onclick="TvShow()" href="#">TV Shows</a>
+                        <ul class="sub-menu tv d-none">
+                            <li><a class="item-link" href="/tv">Popular</a></li>
+                            <li><a class="item-link" href="/tv/top-rated">Top Rated</a></li>
+                            <li><a class="item-link" href="/tv/on-the-air">On TV</a></li>
+                            <li><a class="item-link" href="/tv/airing-today">Airing Today</a></li>
                         </ul>
                     </li>
                     <li class="nav-mobile-item">
-                        <a class="no_click text" href="/person">People</a>
-                        <!--<ul class="sub_menu person hide">-->
-                        <!--<li><a href="/person">Popular People</a></li>-->
-                        <!--</ul>-->
+                        <a class="no_click text" onclick="People()" href="#">People</a>
+                        <ul class="sub-menu people d-none">
+                            <li><a class="item-link" href="/person">Popular People</a></li>
+                        </ul>
                     </li>
                     <li class="nav-mobile-item">
-                        <a class="text" href="/discuss">Discussions</a>
+                        <a  class="text" href="/discuss">Discussions</a>
                     </li>
                     <ul class="lst-none nav-small pd-l2">
                         <li class="nav-item mr-t3"><a class="nav-link" href="/bible">Contribution Bible</a></li>
