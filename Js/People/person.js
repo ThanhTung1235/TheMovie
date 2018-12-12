@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded',function () {
+document.   addEventListener('DOMContentLoaded',function () {
     Person_list();
 });
 function Person_list() {
