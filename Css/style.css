@@ -592,7 +592,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     height: 215px;
-    width: 215px;
+    width: auto;
 }
 
 .title-person {
@@ -610,10 +610,10 @@ footer {
     margin: 30px 0;
 
 }
-.detail-info ,.detail-title{
+.detail-info{
     padding-left: 50px;
 }
-.detail-info p:first-child {
+.annotation {
     margin-bottom: 16px;
     font-weight: bold;
     line-height: 1em;
@@ -621,26 +621,12 @@ footer {
 }
 
 .biography {
-    font-size: 16px;
-    position: relative;
-    max-height: 165px;
-    height: 200px;
+    height: 145px;
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
 }
-.biography:before {
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-.biography:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    width: 16px;
-    height: 16px;
-    margin-top: 3.2px;
-}
+
 .btn-more {
     background: #00d573;
     height: 30px;
@@ -668,12 +654,10 @@ footer {
 
 .detail {
     width: 70%;
-    position: relative;
 }
 
 .detail-thumbnail {
     width: 30%;
-    z-index: 2;
 }
 
 .shortcut_nav {
@@ -684,7 +668,7 @@ footer {
     left: 0;
     border-top: 1px solid #D7D7D7;
     border-bottom: 1px solid #D7D7D7;
-    bottom: 80px;
+    bottom: 50px;
     height: 60px;
     overflow: hidden;
 }
@@ -702,7 +686,9 @@ footer {
     padding: 0;
     margin-right: 45px;
 }
-
+.detail-thumbnail{
+    z-index: 2;
+}
 .shortcut_bar .nav-link {
     color: #081c24;
     text-transform: capitalize;
@@ -713,6 +699,25 @@ footer {
 .item-d{
     margin-top: 8px;
 }
+.content_detail{
+    position: relative;
+}
+.short_bar_mobile{
+    background: #E5E5E5;
+    margin-left: 0;
+}
+
+.short_bar_mobile .nav-item{
+    padding-top: 0;
+    margin-right: 60px;
+}
+.mobile_nav{
+    text-align: center;
+    display: none;
+    height: 60px;
+    overflow: hidden;
+}
+
 /**/
 @media only screen and (max-width: 1024px) {
     .movie-card {
@@ -731,10 +736,14 @@ footer {
     .more-info {
         margin-top: 20px;
     }
+
 }
 
 @media only screen and (max-width: 992px) {
     .info-movie img {
+        display: none;
+    }
+    .d-hidden-m{
         display: none;
     }
 }
@@ -780,18 +789,67 @@ footer {
     .d-hidden {
         display: none;
     }
-
-
+    .detail{
+        width: 100%;
+    }
+    .detail-thumbnail{
+        width: 100%;
+    }
+    .inner{
+        display: block;
+    }
+    .person-avatar{
+        width: 250px;
+        height: 300px;
+        overflow: hidden;
+        margin: auto;
+    }
+    .detail-title{
+        text-align: center;
+        padding-left: 0;
+    }
+    .detail-info{
+        padding-left: 0;
+    }
+    .mobile_nav{
+        display: block;
+    }
+    .person-details{
+        padding-top: 0;
+    }
+    .person-card {
+        width: 30%;
+        height: 22%;
+    }
 }
 
 @media only screen and (max-width: 640px) {
     .movie-card {
         width: 45%;
     }
+    .person-card {
+        width: 45%;
+        height: 22%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .movie-card {
         width: 100%;
+    }
+
+}
+@media only screen and (max-width: 440px) {
+    .movie-card {
+        width: 100%;
+    }
+    .person-card {
+        width: 100%;
+        height: 22%;
+        overflow: hidden;
+    }
+    .person-thumbnail{
+        height: 300px;
+        width: auto;
     }
 }
