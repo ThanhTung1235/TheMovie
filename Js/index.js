@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded',function () {
 });
 function search() {
     var key_word = txt_search.value;
-    btn_search.innerHTML = '<a href="../../TheMovie/Blade/Movies/Search.html?key_word='+key_word+'"><i class="fas fa-search search-icon"></i></a>';
+    btn_search.innerHTML = '<a href="Movies/Search.html?key_word='+key_word+'"><i class="fas fa-search search-icon"></i></a>';
 }
 function enter_to_search(event) {
     if (event.which == 13){

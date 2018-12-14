@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0406e71-9268-4499-a459-3e4e30be65da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Noavatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blade/Movies/Search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/Movies/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blade/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blade/Movies/Nowplaying.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/Movies/Nowplaying.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blade/Movies/Popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/Movies/Popular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blade/Movies/TopRate.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/Movies/TopRate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blade/Movies/UpComing.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/Movies/UpComing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blade/People/Details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/People/Details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Moives/nowplaying.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/nowplaying.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Moives/popular.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/popular.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Moives/top-rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/top-rate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Moives/upcoming.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/upcoming.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/People/details.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/People/details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/People/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/People/person.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,10 +18,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blade/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" selection-start-line="12" selection-end-line="170" selection-end-column="9" />
+            <state relative-caret-position="207">
+              <caret line="165" column="25" lean-forward="true" selection-start-line="165" selection-start-column="25" selection-end-line="165" selection-end-column="43" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -146,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blade/Movies/Popular.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="-259">
               <caret line="172" column="42" lean-forward="true" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -157,6 +139,24 @@
                 <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Js/Movies/search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -230,7 +230,6 @@
         <option value="$PROJECT_DIR$/Js/Movies/search.js" />
         <option value="$PROJECT_DIR$/Css/style.css" />
         <option value="$PROJECT_DIR$/Blade/Index.html" />
-        <option value="$PROJECT_DIR$/Js/index.js" />
         <option value="$PROJECT_DIR$/Blade/Movies/UpComing.html" />
         <option value="$PROJECT_DIR$/Blade/Movies/Search.html" />
         <option value="$PROJECT_DIR$/Blade/Movies/TopRate.html" />
@@ -238,6 +237,7 @@
         <option value="$PROJECT_DIR$/Blade/People/Person.html" />
         <option value="$PROJECT_DIR$/Blade/Movies/Nowplaying.html" />
         <option value="$PROJECT_DIR$/Blade/Movies/Popular.html" />
+        <option value="$PROJECT_DIR$/Js/index.js" />
       </list>
     </option>
   </component>
@@ -263,6 +263,23 @@
               <item name="TheMovie" type="b2602c69:ProjectViewProjectNode" />
               <item name="TheMovie" type="462c0819:PsiDirectoryNode" />
               <item name="Blade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="Blade" type="462c0819:PsiDirectoryNode" />
+              <item name="Movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="Js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="Js" type="462c0819:PsiDirectoryNode" />
+              <item name="Movies" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,12 +341,12 @@
       <workItem from="1544597664462" duration="16108000" />
       <workItem from="1544668710741" duration="739000" />
       <workItem from="1544684730181" duration="15594000" />
-      <workItem from="1544752373461" duration="10279000" />
+      <workItem from="1544752373461" duration="10778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132923000" />
+    <option name="totallyTimeSpent" value="133422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -347,7 +364,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.41218132" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30311614" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -444,53 +461,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Js/Movies/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11210">
           <caret line="772" column="7" selection-start-line="772" selection-start-column="1" selection-end-line="772" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blade/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="170" selection-end-column="9" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blade/Movies/Search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="185" column="20" selection-start-line="185" selection-start-column="24" selection-end-line="203" selection-end-column="30" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1544762424119" expanded="false" signature="9891:11078" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,7 +541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blade/Movies/Popular.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="-259">
           <caret line="172" column="42" lean-forward="true" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -575,6 +549,48 @@
             <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blade/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="165" column="25" lean-forward="true" selection-start-line="165" selection-start-column="25" selection-end-line="165" selection-end-column="43" />
+          <folding>
+            <element signature="n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Js/Movies/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blade/Movies/Search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="185" column="20" selection-start-line="185" selection-start-column="24" selection-end-line="203" selection-end-column="30" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <marker date="1544762424119" expanded="false" signature="9891:11078" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
