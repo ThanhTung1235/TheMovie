@@ -25,6 +25,7 @@ function Person(id) {
                 0: "-"
             };
             console.log(gender[Person.gender]);
+            // personal info
             var item = '<div class="container">';
             item += '<h2 class="detail-item">' + Person.name + '</h2>';
             item += '<ul class="detail-item">';
@@ -59,18 +60,27 @@ function Person(id) {
             item += '</ul>';
             item += '</div>'
             personal_info.innerHTML += item;
-
-            var personItem = '';
+            //
+            // Detail
+            var image = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/" + Person.profile_path;
+            if (Person.profile_path == null || Person.profile_path.length == 0){
+                image ="../../Assets/Noavatar.jpg";
+            }
+            var biography = Person.biography;
+            if (Person.biography == null || Person.biography.length == 0){
+                biography = "We don't have a biography for Jimmy Tatro.";
+            }
+                var personItem = '';
             personItem += '<div class="detail-thumbnail">';
             personItem += '<div class="person-avatar">';
-            personItem += '<img class="img-fluid" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/' + Person.profile_path + '" alt="">';
+            personItem += '<img class="img-fluid" src="' + image + '" alt="">';
             personItem += '</div>';
             personItem += '</div>';
             personItem += '<div class="detail">';
             personItem += '<div class="detail-info">';
             personItem += '<h2 class="detail-title"> ' + Person.name + '</h2>';
             personItem += '<p class="annotation">Biography</p>';
-            personItem += '<div class="biography">' + Person.biography + '</div>';
+            personItem += '<div class="biography">' + biography + '</div>';
             personItem += '<p class="btn-more d-hidden"><i class="fas fa-chevron-down"></i></p>';
             personItem += '</div>';
             personItem += '</div>';

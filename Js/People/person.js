@@ -1,4 +1,4 @@
-document.   addEventListener('DOMContentLoaded',function () {
+document.addEventListener('DOMContentLoaded',function () {
     Person_list();
 });
 function Person_list() {
@@ -13,7 +13,7 @@ function Person_list() {
             for (var i = 0; i < obj.results.length; i++) {
                 var thumbnail = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/" + obj.results[i].profile_path;
                 if (obj.results[i].profile_path == null) {
-                    thumbnail = "https://vignette.wikia.nocookie.net/huyphuc1981/images/4/4f/Noavatar.jpg";
+                    thumbnail = "../../Assets/Noavatar.jpg";
                 }
                 var item = '<div class="person-card"><a href="../../Blade/People/Details.html?id='+obj.results[i].id +'">';
                 item += ' <div class="person-thumbnail" style="background-image: url(' + thumbnail + ')" title="' + obj.results[i].name + '">';

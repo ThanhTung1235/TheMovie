@@ -5,6 +5,24 @@ var people = document.getElementsByClassName("people")[0];
 var discover = document.getElementsByClassName("discover")[0];
 var tvShow = document.getElementsByClassName("tv")[0];
 var movie = document.getElementsByClassName("movie")[0];
+var btn_search = document.getElementById("btn-search");
+var txt_search = document.getElementById("txt_search");
+
+window.addEventListener('DOMContentLoaded',function () {
+    search();
+});
+function search() {
+    var key_word = txt_search.value;
+    btn_search.innerHTML = '<a href="../../TheMovie/Blade/Movies/Search.html?key_word='+key_word+'"><i class="fas fa-search search-icon"></i></a>';
+}
+function enter_to_search(event) {
+    if (event.which == 13){
+    //    do something
+    }
+}
+
+
+
 btn_bars.onclick = function () {
     if (menu_respon.classList.contains("active") == false) {
         menu_respon.classList.add("active");
@@ -18,28 +36,32 @@ btn_bars.onclick = function () {
 function Discover() {
     if (discover.classList.contains("d-none")) {
         discover.classList.remove("d-none");
-    }
-    else {
+    } else {
         discover.classList.add("d-none");
     }
 }
+
 function Movies() {
     if (movie.classList.contains("d-none")) {
         movie.classList.remove("d-none");
-    }
-    else {
+    } else {
         movie.classList.add("d-none");
     }
 }
+
 function TvShow() {
     if (tvShow.classList.contains("d-none")) {
         tvShow.classList.remove("d-none");
-    }
-    else {
+    } else {
         tvShow.classList.add("d-none");
     }
 }
+
 function People() {
-    if (people.classList.contains("d-none"))people.classList.remove("d-none");
+    if (people.classList.contains("d-none")) people.classList.remove("d-none");
     else people.classList.add("d-none");
 }
+
+
+
+
