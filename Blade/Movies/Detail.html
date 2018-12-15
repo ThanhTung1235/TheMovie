@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Detail</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../Css/style.css">
+    <link rel="stylesheet" href="../../Css/Style.css">
 </head>
 <body>
 <header>
@@ -166,57 +166,124 @@
             <span id="btn-search">
                 <i class="fas fa-search search-icon"></i>
             </span>
-            <input class="search-input"  id="txt_search" placeholder="Search for movie, tv show, person..." type="text">
+            <input class="search-input" id="txt_search" placeholder="Search for movie, tv show, person..." type="text">
         </div>
     </div>
 </header>
-<main>
-    <div class="container search-page">
-        <div class="row">
-            <div class="col-3 col-sm">
-                <ul class="search-nav">
-                    <li class="search-item"><a class="search-link" href="#">Movie</a></li>
-                    <li class="search-item"><a class="search-link" href="#">TV Shows</a></li>
-                    <li class="search-item"><a class="search-link" href="#">People</a></li>
-                    <li class="search-item"><a class="search-link" href="#">Companies</a></li>
-                    <li class="search-item"><a class="search-link" href="#">Keywords</a></li>
-                    <li class="search-item"><a class="search-link" href="#">Collection</a></li>
-                    <li class="search-item"><a class="search-link" href="#">Networks</a></li>
-                </ul>
+<main class="movie-page">
+    <div class="details-movie">
+        <div class="thumbnail-movies"
+             style="background-image: url('https://image.tmdb.org/t/p/w1400_and_h450_face/48bEcwPgFZzNl32CGhOv328keZl.jpg');"></div>
+        <div class="thumbnail-movie">
+            <div class="container">
+                <div id="detail-movie" class="row detail-movie">
+                    <div class="col-4 col-sm">
+                        <img class="img-fluid" src="../../Assets/EndGame.jpg" alt="">
+                    </div>
+                    <div class="col-8 col-sm info-detail-movie">
+                        <h1>Avengers: Endgame <span class="released">(2019)</span></h1>
+                        <ul class="d-flex d-hidden">
+                            <li class="action"><i class="fas fa-list"></i></li>
+                            <li class="action"><i class="fas fa-heart"></i></li>
+                            <li class="action"><i class="fas fa-bookmark"></i></li>
+                        </ul>
+                        <h3 class="title-feature">Overview</h3>
+                        <p class="overview">
+                            The culmination of 22 interconnected films and the turning point of the beloved heroes' epic
+                            journey, as they come to truly understand how fragile their reality is and the sacrifices
+                            that must
+                            be made to uphold it.</p>
+                        <h3 class="title-feature">Featured Crew</h3>
+                        <p style="margin-top: 50px" class="title-feature">
+                            Stephen McFeely
+                        </p>
+                        <p>Screenplay, Writer</p>
+                        <p class="title-feature">
+                            Anthony Russo
+                        </p>
+                        <p>Director</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-9 col-sm ">
-                <h2>Search <i class="fas fa-chevron-right"></i> Movie Results</h2>
-                <div id="content-search" class="search-cards">
-                    <!--<div class="movie-card">-->
-                        <!--<div class="img-movie">-->
-                            <!--<img class="img-fluid" src="../../Assets/Venom.jpg" alt="">-->
-                        <!--</div>-->
-                        <!--<div class="info">-->
-                            <!--<h3 class="pd-l">Venom</h3>-->
-                            <!--<p class="pd-l ">October 5,2018</p>-->
-                            <!--<p class="info-content pd-l d-hidden-l"> Eddie Brock is a reporter—investigating people who-->
-                                <!--want-->
-                                <!--to go-->
-                                <!--unnoticed. But after he makes a-->
-                                <!--terrible discovery at the Life Foundation, he begins to transform into ‘Venom’. The-->
-                                <!--Foundation has-->
-                                <!--discovered creatures…</p>-->
-                            <!--<div class="more-info d-hidden-l">-->
-                                <!--<a class="pd-l" href="#">More info</a>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
+
+        </div>
+    </div>
+    <div class="content_wrapper">
+        <div class="container">
+            <ul class="shortcut_bar">
+                <li class="sub-item"><a class="sub-link" href="#" title="Discussions">Discussions</a> <i
+                        class="fas fa-sort-down"></i></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Reviews">Reviews</a></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Videos">Videos</a> <i
+                        class="fas fa-sort-down"></i></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Images">Images</a> <i
+                        class="fas fa-sort-down"></i></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Changes">Changes</a></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Report">Report</a></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Share">Share</a></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Edit">Edit</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="actor">
+        <div class="container list_actors">
+            <div class="actor_card">
+                <div class="actor_avatar">
+                    <img src="../../Assets/Venom.jpg" alt="">
+                </div>
+                <div class="info_actor">
+                    <p>Tom hardy</p>
+                    <p>Eddie Brock/Venom</p>
+                </div>
+            </div>
+            <div class="actor_card">
+                <div class="actor_avatar">
+                    <img src="../../Assets/Venom.jpg" alt="">
+                </div>
+                <div class="info_actor">
+                    <p>Tom hardy</p>
+                    <p>Eddie Brock/Venom</p>
+                </div>
+            </div>
+            <div class="actor_card">
+                <div class="actor_avatar">
+                    <img src="../../Assets/Venom.jpg" alt="">
                 </div>
 
+                <div class="info_actor">
+                    <p>Tom hardy</p>
+                    <p>Eddie Brock/Venom</p>
+                </div>
+            </div>
+            <div class="actor_card">
+                <div class="actor_avatar">
+                    <img src="../../Assets/Venom.jpg" alt="">
+                </div>
+                <div class="info_actor">
+                    <p>Tom hardy</p>
+                    <p>Eddie Brock/Venom</p>
+                </div>
+            </div>
+            <div class="actor_card">
+                <div class="actor_avatar">
+                    <img src="../../Assets/Venom.jpg" alt="">
+                </div>
+                <div class="info_actor">
+                    <p>Tom hardy</p>
+                    <p>Eddie Brock/Venom</p>
+                </div>
             </div>
         </div>
     </div>
+
+
 </main>
 <footer>
     <div class="container footer-content">
         <div class="row">
             <div class="col-4 col-sm">
                 <div class="logo-footer">
+                    <a href=""></a>
                     <img class="d-hidden" src="../../Assets/Logo-sm.png" alt="">
                     <div class="btn-user">
                         <a href="#">Hi User !</a>
@@ -277,6 +344,6 @@
     </div>
 </footer>
 <script src="../../Js/index.js"></script>
-<script src="../../Js/Movies/search.js"></script>
+<!--<script src="../../Js/Movies/detail.js"></script>-->
 </body>
 </html>

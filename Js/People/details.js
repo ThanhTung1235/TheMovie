@@ -8,14 +8,15 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function Person(id) {
+
     var api_key = "f6f0ae796cca1a731af364386893d5fe";
     var url = "https://api.themoviedb.org/3/person/" + id + "?api_key=" + api_key;
     var person = document.getElementById("person");
     var personal_info = document.getElementById("personal_info");
-    var xmlHttpRequest = new XMLHttpRequest();
-    xmlHttpRequest.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            var Person = JSON.parse(xmlHttpRequest.responseText);
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status === 200) {
+            var Person = JSON.parse(xmlhttp.responseText);
             console.log(Person.name);
 
             var gender = Person.gender;
@@ -27,7 +28,7 @@ function Person(id) {
             console.log(gender[Person.gender]);
             // personal info
             var item = '<div class="container">';
-            item += '<h2 class="detail-item">' + Person.name + '</h2>';
+            item += '<h2 class="detail-item person-name">' + Person.name + '</h2>';
             item += '<ul class="detail-item">';
             item += '<li class="item-d"><b>Known For</b></li>';
             item += '<li class="item-d">' + Person.known_for_department + '</li>';
@@ -58,7 +59,7 @@ function Person(id) {
                 item += '<li class="item-d">' + Person.also_known_as[i] + '</li>';
             }
             item += '</ul>';
-            item += '</div>'
+            item += '</div>';
             personal_info.innerHTML += item;
             //
             // Detail
@@ -90,8 +91,8 @@ function Person(id) {
 
         }
     };
-    xmlHttpRequest.open('GET', url, true);
-    xmlHttpRequest.send();
+    xmlhttp.open('GET', url, true);
+    xmlhttp.send();
 
 }
 

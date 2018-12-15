@@ -40,7 +40,7 @@ function searchs(key_word) {
                 if (search_arr.results[i].poster_path == null || search_arr.results[i].poster_path.length == 0) {
                     image = "../../Assets/Noavatar.jpg";
                 }
-                console.log(image);
+                // console.log(image);
                 var content = document.getElementById("content-search");
                 var content_item = '<div class="movie-card">';
                 content_item += '<div class="img-movie">';
@@ -72,7 +72,7 @@ function search() {
         xmlHttpRequest.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 var search_arr = JSON.parse(xmlHttpRequest.responseText);
-                console.log(search_arr.results);
+                // console.log(search_arr.results);
                 for (var i = 0; i < search_arr.results.length; i++) {
                     var image = "https://image.tmdb.org/t/p/w185_and_h278_bestv2" + search_arr.results[i].poster_path;
                     if (search_arr.results[i].poster_path == null || search_arr.results[i].poster_path.length == 0) {

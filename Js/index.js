@@ -8,18 +8,10 @@ var movie = document.getElementsByClassName("movie")[0];
 var btn_search = document.getElementById("btn-search");
 var txt_search = document.getElementById("txt_search");
 
-window.addEventListener('DOMContentLoaded',function () {
-    search();
-});
-function search() {
-    var key_word = txt_search.value;
-    btn_search.innerHTML = '<a href="Movies/Search.html?key_word='+key_word+'"><i class="fas fa-search search-icon"></i></a>';
-}
-function enter_to_search(event) {
-    if (event.which == 13){
-    //    do something
-    }
-}
+btn_search.onclick = function(){
+  window.location.href= "Movies/Search.html?key_word="+txt_search.value;
+  console.log(i);
+};
 
 
 
