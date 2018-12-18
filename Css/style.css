@@ -557,6 +557,9 @@ footer {
 
 /**/
 /*People*/
+.person-details{
+    padding-bottom: 0;
+}
 .person-card {
     width: 22%;
     height: 22%;
@@ -569,10 +572,9 @@ footer {
     color: inherit;
 }
 
-.person-info {
+.person-info{
     padding: 10px;
 }
-
 .person-info p:first-child {
     font-weight: bold;
     font-size: 18px;
@@ -606,13 +608,76 @@ footer {
     padding-left: 10px;
 }
 
-/**/
-/*Person details*/
-.person-details {
-    background: #f1f1f1;
-    padding-top: 50px;
+.list_credit {
+    text-align: center;
+    background: #ffffff;
 }
 
+.list_credit {
+    text-align: center;
+}
+
+.credit_card {
+    margin-right: 20px;
+    width: 185px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.image_credit {
+    cursor: pointer;
+}
+.image_credit>img{
+    border-radius: 5px;
+}
+
+.image_credit:hover {
+    filter: contrast(130%);
+    transition: ease-in-out .1s;
+}
+
+.column_wrapper {
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+}
+
+.personal_info {
+    padding: 10px;
+    width: 300px;
+    margin-left: auto;
+}
+.name_credit{
+    text-decoration: none;
+    color: #081C24;
+
+}
+.name_credit>p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.known_for {
+    width: 700px;
+}
+
+.col-white {
+    background: #ffffff;
+    width: 60%;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.col-grey {
+    width: 40%;
+    justify-content: flex-end;
+    display: flex;
+    background: #f1f1f1;
+    padding-bottom: 30px;
+}
+
+/**/
+/*Person details*/
 .detail-title {
     margin: 30px 0;
 
@@ -715,6 +780,7 @@ footer {
 
 .content_detail {
     position: relative;
+    background: #f1f1f1;
 }
 
 .short_bar_mobile {
@@ -1278,6 +1344,35 @@ p.title-feature {
         display: block;
     }
 
+    .column_wrapper {
+        display: block;
+        width: 100%;
+        align-content: unset;
+    }
+    .col-grey {
+        width: 100%;
+        justify-content: unset;
+        display: block;
+        padding: 0;
+    }
+    .col-white {
+        background: #ffffff;
+        width: 100%;
+        justify-content: unset;
+        display: block;
+    }
+    .personal_info{
+        width: 100%;
+        margin-left: 0;
+        background: #f1f1f1;
+    }
+    .known_for{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .logo-footer {
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (max-width: 640px) {

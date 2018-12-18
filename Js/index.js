@@ -8,7 +8,11 @@ var movie = document.getElementsByClassName("movie")[0];
 var btn_search = document.getElementById("btn-search");
 var txt_search = document.getElementById("txt_search");
 
+document.addEventListener('DOMContentLoaded', function () {
+    var api_key = "f6f0ae796cca1a731af364386893d5fe";
+    localStorage.setItem("api_key",api_key);
 
+});
 txt_search.addEventListener("keyup",function (ev) {
     if (ev.which == 13) {
         window.location.href= "Movies/Search.html?key_word="+txt_search.value;

@@ -92,6 +92,9 @@ function movie_detail(id) {
             for (var i = 0; i < 5; i++) {
                 var image = "https://image.tmdb.org/t/p/w138_and_h175_face" + obj.credits.cast[i].profile_path;
                 // console.log(image);
+                if (obj.credits.cast[i].profile_path == null || obj.credits.cast[i].profile_path.length == 0){
+                    image = "../../Assets/Noavatar.jpg";
+                }
                 var card_item = '<div  class="actor_card">';
                 card_item += '<div class="actor_avatar">';
                 card_item += '<img src="' + image + '" alt="">';
