@@ -39,7 +39,9 @@ ul {
 .mr-t {
     margin-top: 10px;
 }
-
+.mr-b{
+    margin-bottom: 20px;
+}
 .mr-t3 {
     margin-top: 30px;
 }
@@ -1123,6 +1125,10 @@ p.title-feature {
 }
 
 /**/
+.overview-mobile{
+    display: none;
+    color: #fff;
+}
 @media only screen and (max-width: 1024px) {
     .movie-card {
         display: block;
@@ -1252,7 +1258,9 @@ p.title-feature {
         display: block;
         width: 45%;
     }
-
+    .overview-mobile{
+        display: block;
+    }
 
 }
 
