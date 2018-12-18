@@ -187,13 +187,13 @@ function recommendations(id) {
                 }
                 var recommend_item = '<div class="recommend_card">';
                 recommend_item += '<div class="image-recommend">';
-                recommend_item += '<img src="' + image + '" alt="">';
+                recommend_item += '<a class="movie-link" href="../../Blade/Movies/Detail.html?id='+recommendations_respon.results[i].id+'"><img src="' + image + '" alt=""></a>';
                 recommend_item += '<div class="sub">';
                 recommend_item += '<p><i class="fas fa-calendar-alt"></i> ' + recommendations_respon.results[i].release_date + '</p>';
                 recommend_item += '</div>';
                 recommend_item += '</div>';
                 recommend_item += '<div class="d-flex movie-name">';
-                recommend_item += '<p>' + recommendations_respon.results[i].title + '</p>';
+                recommend_item += '<p><a class="movie-link" href="../../Blade/Movies/Detail.html?id='+recommendations_respon.results[i].id+'">' + recommendations_respon.results[i].title + '</a></p>';
                 recommend_item += '<p style="margin-left: auto">' + recommendations_respon.results[i].vote_average + '<i class="fas fa-star"></i></p>';
                 recommend_item += '</div>';
                 recommend_item += '</div>';
