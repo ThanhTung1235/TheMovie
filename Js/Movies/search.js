@@ -47,11 +47,11 @@ function searchs(key_word) {
                 content_item += '<img class="img-fluid" src="' + image + '" alt="">';
                 content_item += '</div>';
                 content_item += '<div class="info">';
-                content_item += '<h3 class="pd-l">' + search_arr.results[i].original_title + '</h3>';
+                content_item += '<h3 class="pd-l"><a href="../../Blade/Movies/Detail.html?id='+search_arr.results[i].id+'"> ' + search_arr.results[i].original_title + '</a></h3>';
                 content_item += '<p class="pd-l ">October 5,2018</p>';
                 content_item += '<p class="info-content pd-l d-hidden-l">' + search_arr.results[i].overview + '</p>';
                 content_item += '<div class="more-info d-hidden-l">';
-                content_item += '<a class="pd-l" href="#">More info</a>';
+                content_item += '<a class="pd-l" href="../../Blade/Movies/Detail.html?id='+search_arr.results[i].id+'">More info</a>';
                 content_item += '</div>';
                 content_item += '</div>';
                 content_item += '</div>';
