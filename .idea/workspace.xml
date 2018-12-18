@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0406e71-9268-4499-a459-3e4e30be65da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Movies/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/detail.js" afterDir="false" />
-    </list>
+    <list default="true" id="f0406e71-9268-4499-a459-3e4e30be65da" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -26,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Js/Movies/detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="189" column="175" selection-start-line="189" selection-start-column="175" selection-end-line="189" selection-end-column="175" />
+            <state relative-caret-position="17">
+              <caret line="173" column="51" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="51" />
               <folding>
                 <element signature="e#4#10#1" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
@@ -43,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blade/Movies/Detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="442">
               <caret line="351" column="10" lean-forward="true" selection-start-line="351" selection-start-column="10" selection-end-line="351" selection-end-column="10" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -271,12 +267,12 @@
       <workItem from="1544844872918" duration="1075000" />
       <workItem from="1545011183604" duration="13343000" />
       <workItem from="1545028744957" duration="17105000" />
-      <workItem from="1545116295701" duration="6611000" />
+      <workItem from="1545116295701" duration="7428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189522000" />
+    <option name="totallyTimeSpent" value="190339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -294,7 +290,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16005665" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.44334278" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -517,9 +513,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Js/Movies/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="173" column="51" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="51" />
+          <folding>
+            <element signature="e#4#10#1" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#!!block;n#trailer_movie#0" />
+            <element signature="n#!!block;n#keyword#0" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Blade/Movies/Detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="442">
           <caret line="351" column="10" lean-forward="true" selection-start-line="351" selection-start-column="10" selection-end-line="351" selection-end-column="10" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -543,21 +554,6 @@
             <marker date="1545122381644" expanded="true" signature="17356:18543" ph="..." />
             <marker date="1545122381644" expanded="false" signature="18819:19384" ph="..." />
             <marker date="1545122381644" expanded="true" signature="18824:19384" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js/Movies/detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="189" column="175" selection-start-line="189" selection-start-column="175" selection-end-line="189" selection-end-column="175" />
-          <folding>
-            <element signature="e#4#10#1" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#!!block;n#trailer_movie#0" />
-            <element signature="n#!!block;n#keyword#0" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

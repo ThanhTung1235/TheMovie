@@ -97,7 +97,7 @@ function movie_detail(id) {
                 card_item += '<img src="' + image + '" alt="">';
                 card_item += '</div>';
                 card_item += '<div class="info_actor">';
-                card_item += '<p><a href="../People/details.html?id=' + obj.credits.cast[i].id + '">' + obj.credits.cast[i].name + '</a></p>';
+                card_item += '<p><a href="../People/Details.html?id=' + obj.credits.cast[i].id + '">' + obj.credits.cast[i].name + '</a></p>';
                 card_item += '<p>' + obj.credits.cast[i].character + '</p>';
                 card_item += '</div>';
                 card_item += '</div>';
