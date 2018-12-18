@@ -22,17 +22,18 @@ function movie_detail(id) {
             var obj = JSON.parse(xmlhttp.responseText);
             // console.log(obj.original_title);
             var released = obj.release_date;
-
-            var detail_item = '<div class="col-4 col-sm">';
+            var detail_item = '<div  class="row detail-movie">';
+            detail_item += '<div class="col-4">';
             detail_item += '<img class="img-fluid" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2' + obj.poster_path + '" alt="">';
             detail_item += '</div>';
-            detail_item += '<div class="col-8 col-sm info-detail-movie">';
+            detail_item += '<div class="col-8 info-detail-movie">';
             detail_item += '<h1>' + obj.original_title + '&nbsp;<span class="released">(' + released.split("-", 1) + ')</span></h1>';
-            detail_item += '<ul class="d-flex d-hidden">';
+            detail_item += '<ul class="d-flex">';
             detail_item += '<li class="action"><i class="fas fa-list"></i></li>';
             detail_item += '<li class="action"><i class="fas fa-heart"></i></li>';
             detail_item += '<li class="action"><i class="fas fa-bookmark"></i></li>';
             detail_item += '</ul>';
+            detail_item += '<div class="d-hidden">';
             detail_item += '<h3 class="title-feature">Overview</h3>';
             detail_item += '<p class="overview">' + obj.overview + '</p>';
             detail_item += '<h3 class="title-feature">Featured Crew</h3>';
@@ -40,6 +41,22 @@ function movie_detail(id) {
             detail_item += '<p>Screenplay, Writer</p>';
             detail_item += '<p class="title-feature">Anthony Russo</p>';
             detail_item += '<p>Director</p>';
+            detail_item += '</div>';
+            detail_item += '</div>';
+            detail_item += '</div>';
+            detail_item += '<div class="overview-mobile">';
+            detail_item += '<h3 class="title-feature">Overview</h3>';
+            detail_item += '<p class="overview">' + obj.overview + '</p>';
+            detail_item += '<h3 class="title-feature">Featured Crew</h3>';
+            detail_item += '<div class="d-flex mr-t3">';
+            detail_item += '<div class="mr-2 mr-b">';
+            detail_item += '<p class="title-feature ">Stephen McFeely</p>';
+            detail_item += '<p>Screenplay, Writer</p>';
+            detail_item += '</div>';
+            detail_item += '<div class="mr-2 mr-b">';
+            detail_item += '<p class="title-feature">Anthony Russo</p>';
+            detail_item += '<p>Director</p>';
+            detail_item += '</div>';
             detail_item += '</div>';
             detail.innerHTML += detail_item;
             thumbnail.style.backgroundImage = 'url("https://image.tmdb.org/t/p/w1400_and_h450_face' + obj.backdrop_path + '")'
@@ -86,11 +103,11 @@ function movie_detail(id) {
                 card_item += '</div>';
                 cast_card.innerHTML += card_item;
             }
-            var bg_image = "https://image.tmdb.org/t/p/w1440_and_h320_bestv2"+obj.belongs_to_collection.backdrop_path;
-            var collection_item = '<div class="thumbnail-collection" style="background-image:url('+ bg_image+') "></div>';
+            var bg_image = "https://image.tmdb.org/t/p/w1440_and_h320_bestv2" + obj.belongs_to_collection.backdrop_path;
+            var collection_item = '<div class="thumbnail-collection" style="background-image:url(' + bg_image + ') "></div>';
             collection_item += '<div class="panel">';
             collection_item += '<div class="container">';
-            collection_item += '<h2 class="title-collection">'+obj.belongs_to_collection.name +'</h2>';
+            collection_item += '<h2 class="title-collection">' + obj.belongs_to_collection.name + '</h2>';
             collection_item += '<p class="info-collection">Includes Mission: Impossible, Mission: Impossible II, Mission: Impossible III</p>';
             collection_item += '<a href="#" class="btn-collection">view the collection</a>';
             collection_item += '</div>';
