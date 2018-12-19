@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0406e71-9268-4499-a459-3e4e30be65da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/Movies/search_active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blade/People/people_search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blade/Tv/tv_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blade/Tv/tv_search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/TvShow/tv_detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/TvShow/tv_search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blade/Movies/Detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/Movies/Detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blade/Movies/Search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/Movies/Search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Movies/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/detail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Js/Movies/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/Movies/search_active.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/search_active.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,44 +23,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Css/style.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Js/TvShow/tv_detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="846" column="14" selection-start-line="846" selection-start-column="1" selection-end-line="846" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blade/Movies/Search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="280" column="45" selection-start-line="280" selection-start-column="45" selection-end-line="280" selection-end-column="45" />
+            <state relative-caret-position="290">
+              <caret line="194" column="174" selection-start-line="194" selection-start-column="174" selection-end-line="194" selection-end-column="174" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <marker date="1545190405119" expanded="false" signature="10019:11068" ph="..." />
+                <element signature="e#4#10#1" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#!!block;n#keyword#0" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Js/Movies/search_active.js">
+        <entry file="file://$PROJECT_DIR$/Blade/Tv/tv_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="35" />
+            <state relative-caret-position="495">
+              <caret line="431" column="41" selection-start-line="431" selection-start-column="41" selection-end-line="431" selection-end-column="41" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <marker date="1545203796546" expanded="false" signature="16891:18081" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Js/Movies/search.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Js/TvShow/tv_search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1622">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="20">
+              <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Js/Movies/detail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="27" lean-forward="true" selection-end-line="219" />
+              <folding>
+                <element signature="e#4#10#1" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#!!block;n#keyword#0" />
+                <element signature="n#!!block;n#recommendations#0" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;/div&gt;</find>
       <find>.info_actor</find>
       <find>recommen</find>
       <find>movie-name</find>
@@ -106,6 +133,7 @@
       <find>5</find>
       <find>column_grey</find>
       <find>search-item</find>
+      <find>https://image.tmdb.org/t/p/w1400_and_h450_face</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,9 +172,14 @@
         <option value="$PROJECT_DIR$/Blade/Movies/Detail.html" />
         <option value="$PROJECT_DIR$/Css/style.css" />
         <option value="$PROJECT_DIR$/Js/Movies/detail.js" />
+        <option value="$PROJECT_DIR$/Blade/People/people_search.html" />
         <option value="$PROJECT_DIR$/Blade/Movies/Search.html" />
-        <option value="$PROJECT_DIR$/Js/Movies/search_active.js" />
         <option value="$PROJECT_DIR$/Js/Movies/search.js" />
+        <option value="$PROJECT_DIR$/Js/Movies/search_active.js" />
+        <option value="$PROJECT_DIR$/Blade/Tv/tv_search.html" />
+        <option value="$PROJECT_DIR$/Blade/Tv/tv_detail.html" />
+        <option value="$PROJECT_DIR$/Js/TvShow/tv_search.js" />
+        <option value="$PROJECT_DIR$/Js/TvShow/tv_detail.js" />
       </list>
     </option>
   </component>
@@ -183,6 +216,12 @@
             <path>
               <item name="TheMovie" type="b2602c69:ProjectViewProjectNode" />
               <item name="TheMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="Blade" type="462c0819:PsiDirectoryNode" />
+              <item name="Tv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheMovie" type="462c0819:PsiDirectoryNode" />
               <item name="Js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,6 +229,12 @@
               <item name="TheMovie" type="462c0819:PsiDirectoryNode" />
               <item name="Js" type="462c0819:PsiDirectoryNode" />
               <item name="Movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="Js" type="462c0819:PsiDirectoryNode" />
+              <item name="TvShow" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,12 +302,12 @@
       <workItem from="1545028744957" duration="17105000" />
       <workItem from="1545116295701" duration="16147000" />
       <workItem from="1545132521438" duration="111000" />
-      <workItem from="1545184120266" duration="6845000" />
+      <workItem from="1545184120266" duration="15877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206014000" />
+    <option name="totallyTimeSpent" value="215046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -280,7 +325,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17422096" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29461756" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -435,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Js/People/details.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -479,10 +517,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Blade/People/people_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="831" selection-start-line="831" selection-end-line="831" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Js/Movies/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#!!block;n#changeContent#0" />
+            <element signature="n#!!block;n#searchs#0" />
+            <element signature="n#!!block;n#search#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Js/Movies/search_active.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <element signature="n#!!block;n#nav_active#0" />
+            <element signature="n#!!block;n#f#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blade/Movies/Search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="176" column="16" selection-start-line="176" selection-start-column="16" selection-end-line="184" selection-end-column="21" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <marker date="1545195412208" expanded="false" signature="10026:11082" ph="..." />
+            <marker date="1545195412208" expanded="true" signature="10030:11079" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blade/Tv/tv_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="211" column="18" lean-forward="true" selection-start-line="211" selection-start-column="18" selection-end-line="211" selection-end-column="18" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <marker date="1545196993634" expanded="false" signature="10033:11082" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Blade/Movies/Detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="254" column="29" selection-start-line="254" selection-start-column="20" selection-end-line="254" selection-end-column="29" />
+        <state relative-caret-position="138">
+          <caret line="9" column="7" lean-forward="true" selection-end-line="433" selection-end-column="7" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -507,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Js/Movies/detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        <state relative-caret-position="220">
+          <caret line="11" column="27" lean-forward="true" selection-end-line="219" />
           <folding>
             <element signature="e#4#10#1" expanded="true" />
             <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
@@ -520,37 +630,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Css/style.css">
+    <entry file="file://$PROJECT_DIR$/Js/TvShow/tv_search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="846" column="14" selection-start-line="846" selection-start-column="1" selection-end-line="846" selection-end-column="14" />
+        <state relative-caret-position="20">
+          <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blade/Movies/Search.html">
+    <entry file="file://$PROJECT_DIR$/Blade/Tv/tv_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="280" column="45" selection-start-line="280" selection-start-column="45" selection-end-line="280" selection-end-column="45" />
+        <state relative-caret-position="495">
+          <caret line="431" column="41" selection-start-line="431" selection-start-column="41" selection-end-line="431" selection-end-column="41" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1545190405119" expanded="false" signature="10019:11068" ph="..." />
+            <marker date="1545203796546" expanded="false" signature="16891:18081" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Js/Movies/search_active.js">
+    <entry file="file://$PROJECT_DIR$/Js/TvShow/tv_detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js/Movies/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1622">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="290">
+          <caret line="194" column="174" selection-start-line="194" selection-start-column="174" selection-end-line="194" selection-end-column="174" />
+          <folding>
+            <element signature="e#4#10#1" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#!!block;n#keyword#0" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
