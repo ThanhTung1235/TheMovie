@@ -5,6 +5,8 @@ window.addEventListener("DOMContentLoaded", function () {
     trailer_movie(id);
     keyword(id);
     recommendations(id);
+
+
 });
 
 function movie_detail(id) {
@@ -89,10 +91,10 @@ function movie_detail(id) {
             about_movie.innerHTML += about_item;
 
 
-            for (var i = 0; i < 5; i++) {
+            for (var i = 0; i < 6; i++) {
                 var image = "https://image.tmdb.org/t/p/w138_and_h175_face" + obj.credits.cast[i].profile_path;
                 // console.log(image);
-                if (obj.credits.cast[i].profile_path == null || obj.credits.cast[i].profile_path.length == 0){
+                if (obj.credits.cast[i].profile_path == null || obj.credits.cast[i].profile_path.length == 0) {
                     image = "../../Assets/Noavatar.jpg";
                 }
                 var card_item = '<div  class="actor_card">';
@@ -190,13 +192,13 @@ function recommendations(id) {
                 }
                 var recommend_item = '<div class="recommend_card">';
                 recommend_item += '<div class="image-recommend">';
-                recommend_item += '<a class="movie-link" href="../../Blade/Movies/Detail.html?id='+recommendations_respon.results[i].id+'"><img src="' + image + '" alt=""></a>';
+                recommend_item += '<a class="movie-link" href="../../Blade/Movies/Detail.html?id=' + recommendations_respon.results[i].id + '"><img src="' + image + '" alt=""></a>';
                 recommend_item += '<div class="sub">';
                 recommend_item += '<p><i class="fas fa-calendar-alt"></i> ' + recommendations_respon.results[i].release_date + '</p>';
                 recommend_item += '</div>';
                 recommend_item += '</div>';
                 recommend_item += '<div class="d-flex movie-name">';
-                recommend_item += '<p><a class="movie-link" href="../../Blade/Movies/Detail.html?id='+recommendations_respon.results[i].id+'">' + recommendations_respon.results[i].title + '</a></p>';
+                recommend_item += '<p><a class="movie-link" href="../../Blade/Movies/Detail.html?id=' + recommendations_respon.results[i].id + '">' + recommendations_respon.results[i].title + '</a></p>';
                 recommend_item += '<p style="margin-left: auto">' + recommendations_respon.results[i].vote_average + '<i class="fas fa-star"></i></p>';
                 recommend_item += '</div>';
                 recommend_item += '</div>';
@@ -208,6 +210,10 @@ function recommendations(id) {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
+
+
+
+
 
 
 

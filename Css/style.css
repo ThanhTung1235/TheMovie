@@ -356,7 +356,7 @@ header {
 
 main {
     margin-top: 180px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .main {
@@ -844,7 +844,9 @@ footer {
 .search-item:hover {
     border-bottom: 2px solid #00d573;
 }
-
+.search_active{
+    border-bottom: 2px solid #00d573;
+}
 .search-page {
     padding-top: 40px;
 }
@@ -983,7 +985,7 @@ p.title-feature {
 }
 
 .actor_card {
-    width: 300px;
+    width: 140px;
     margin-right: 10px;
     margin-left: 5px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -1013,9 +1015,16 @@ p.title-feature {
     height: 160px;
     overflow: hidden;
 }
-
+.movie-page .column_wrapper .col-white{
+    width: 65%;
+}
+.movie-page .column_wrapper .col-grey{
+    width: 35%;
+}
 .column_grey {
     background: #f1f1f1;
+    width: 60%;
+    margin-right: auto;
 }
 
 .column_grey .title-feature {
@@ -1024,7 +1033,8 @@ p.title-feature {
 
 .column_white {
     background: #ffffff;
-
+    width: 65%;
+    margin-left: auto;
 }
 
 .nav-social {
@@ -1068,7 +1078,6 @@ p.title-feature {
 }
 
 .collection {
-    padding-top: 20px;
     position: relative;
 }
 
@@ -1209,6 +1218,16 @@ p.title-feature {
     display: none;
     color: #fff;
 }
+@media only screen and (max-width: 1440px) {
+    .column_grey,.column_white{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .column_grey,.column_white{
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
     .movie-card {
@@ -1234,6 +1253,7 @@ p.title-feature {
     .more-info {
         margin-top: 20px;
     }
+
 
 }
 
@@ -1345,7 +1365,7 @@ p.title-feature {
     }
 
     .column_wrapper {
-        display: block;
+        display: inline-block;
         width: 100%;
         align-content: unset;
     }
@@ -1373,6 +1393,29 @@ p.title-feature {
     .logo-footer {
         margin-top: 50px;
     }
+    .column_white {
+        background: #ffffff;
+        width: 100%;
+        margin-left: unset;
+    }
+    .column_grey {
+        background: #f1f1f1;
+        width: 100%;
+        margin-right: unset;
+    }
+    .movie-page .column_wrapper{
+        width: 100%;
+        align-content: unset;
+        display: inline-block;
+    }
+    .movie-page .column_wrapper .col-white{
+        width: 100%;
+    }
+    .movie-page .column_wrapper .col-grey{
+        margin-top: 30px;
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 640px) {

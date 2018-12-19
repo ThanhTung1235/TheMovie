@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-
     var url = new URL(window.location.href);
     var key_word = url.searchParams.get("key_word");
     if (key_word == null || key_word.length == 0) {
@@ -7,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     searchs(key_word);
     search();
+
 });
 
 function changeContent() {
@@ -28,8 +28,7 @@ function changeContent() {
 }
 
 function searchs(key_word) {
-    var api_key = "f6f0ae796cca1a731af364386893d5fe";
-    var url = "https://api.themoviedb.org/3/search/movie?api_key=" + api_key + "&language=en-US&query=" + key_word;
+    var url = "https://api.themoviedb.org/3/search/movie?api_key=" + localStorage.getItem("api_key") + "&language=en-US&query=" + key_word;
     var xmlHttpRequest = new XMLHttpRequest();
     xmlHttpRequest.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
