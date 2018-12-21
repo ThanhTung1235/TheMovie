@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0406e71-9268-4499-a459-3e4e30be65da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/amber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blade/People/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/People/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/People/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blade/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blade/Movies/Popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/Movies/Popular.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blade/People/Details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/People/Details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blade/People/Person.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blade/People/Person.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Movies/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Movies/nowplaying.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/nowplaying.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Movies/popular.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/popular.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Movies/top-rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/top-rate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Movies/upcoming.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Movies/upcoming.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Js/People/details.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/People/details.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,11 +20,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blade/People/Details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="237" column="29" selection-start-line="237" selection-start-column="29" selection-end-line="237" selection-end-column="29" />
+            <state relative-caret-position="615">
+              <caret line="237" column="54" selection-start-line="237" selection-start-column="54" selection-end-line="237" selection-end-column="54" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -45,17 +30,17 @@
                 <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <marker date="1545383568094" expanded="true" signature="13031:13451" ph="..." />
+                <marker date="1545387834766" expanded="true" signature="13030:13450" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="1434" column="19" selection-start-line="1434" selection-start-column="19" selection-end-line="1434" selection-end-column="19" />
+            <state relative-caret-position="290">
+              <caret line="1439" column="34" selection-start-line="1439" selection-start-column="34" selection-end-line="1439" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -63,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Js/People/details.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1900">
-              <caret line="95" column="95" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="95" />
+            <state relative-caret-position="120">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -72,13 +57,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Js/People/image.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="301">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding>
-                <element signature="n#!!block;n#get_image#0" />
                 <element signature="n#!!block;n#f#0" />
               </folding>
             </state>
@@ -120,7 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>personal_info</find>
       <find>.list-movie</find>
       <find>list_person</find>
       <find>short_bar_mobile</find>
@@ -150,6 +133,7 @@
       <find>col-white</find>
       <find>image</find>
       <find>col-grey</find>
+      <find>.cast-card</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,11 +179,11 @@
         <option value="$PROJECT_DIR$/Js/Movies/detail.js" />
         <option value="$PROJECT_DIR$/Blade/test.html" />
         <option value="$PROJECT_DIR$/Js/People/popup.js" />
+        <option value="$PROJECT_DIR$/Blade/People/image.html" />
+        <option value="$PROJECT_DIR$/Js/People/image.js" />
+        <option value="$PROJECT_DIR$/Js/People/details.js" />
         <option value="$PROJECT_DIR$/Blade/People/Details.html" />
         <option value="$PROJECT_DIR$/Css/style.css" />
-        <option value="$PROJECT_DIR$/Js/People/details.js" />
-        <option value="$PROJECT_DIR$/Js/People/image.js" />
-        <option value="$PROJECT_DIR$/Blade/People/image.html" />
       </list>
     </option>
   </component>
@@ -321,18 +305,18 @@
       <workItem from="1545184120266" duration="17806000" />
       <workItem from="1545212304782" duration="4817000" />
       <workItem from="1545290190173" duration="12682000" />
-      <workItem from="1545357692906" duration="21837000" />
+      <workItem from="1545357692906" duration="23654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256311000" />
+    <option name="totallyTimeSpent" value="258128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1989425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1989425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,7 +328,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.10339943" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.44759208" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -682,13 +666,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Js/People/image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!block;n#f#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Blade/People/Details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="237" column="29" selection-start-line="237" selection-start-column="29" selection-end-line="237" selection-end-column="29" />
+        <state relative-caret-position="615">
+          <caret line="237" column="54" selection-start-line="237" selection-start-column="54" selection-end-line="237" selection-end-column="54" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -696,22 +688,15 @@
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1545383568094" expanded="true" signature="13031:13451" ph="..." />
+            <marker date="1545387834766" expanded="true" signature="13030:13450" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="1434" column="19" selection-start-line="1434" selection-start-column="19" selection-end-line="1434" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Js/People/details.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="95" column="95" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="95" />
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -738,14 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Js/People/image.js">
+    <entry file="file://$PROJECT_DIR$/Css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#get_image#0" />
-            <element signature="n#!!block;n#f#0" />
-          </folding>
+        <state relative-caret-position="290">
+          <caret line="1439" column="34" selection-start-line="1439" selection-start-column="34" selection-end-line="1439" selection-end-column="34" />
         </state>
       </provider>
     </entry>

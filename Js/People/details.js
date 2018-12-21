@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     if (id == null || id.length == 0) {
         return;
     }
-
-
     Person(id);
     Movie_credit(id);
 
