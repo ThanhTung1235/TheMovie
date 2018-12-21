@@ -26,7 +26,7 @@ function movie_detail(id) {
             var released = obj.release_date;
             var detail_item = '<div  class="row detail-movie">';
             detail_item += '<div class="col-4">';
-            detail_item += '<img class="img-fluid" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2' + obj.poster_path + '" alt="">';
+            detail_item += '<img class="img-fluid" src="https://image.tmdb.org/t/p/w300_and_h450_bestv2' + obj.poster_path + '" alt="">';
             detail_item += '</div>';
             detail_item += '<div class="col-8 info-detail-movie">';
             detail_item += '<h1>' + obj.original_title + '&nbsp;<span class="released">(' + released.split("-", 1) + ')</span></h1>';

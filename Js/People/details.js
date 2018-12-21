@@ -4,10 +4,13 @@ document.addEventListener('DOMContentLoaded', function () {
     if (id == null || id.length == 0) {
         return;
     }
+
+
     Person(id);
     Movie_credit(id);
-});
 
+
+});
 function Person(id) {
 
     var url = "https://api.themoviedb.org/3/person/" + id + "?api_key=" + localStorage.getItem("api_key");
@@ -63,7 +66,7 @@ function Person(id) {
             personal_info.innerHTML += item;
             //
             // Detail
-            var image = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/" + Person.profile_path;
+            var image = "https://image.tmdb.org/t/p/w300_and_h450_bestv2/" + Person.profile_path;
             if (Person.profile_path == null || Person.profile_path.length == 0) {
                 image = "../../Assets/Noavatar.jpg";
             }
@@ -74,7 +77,8 @@ function Person(id) {
             var personItem = '';
             personItem += '<div class="detail-thumbnail">';
             personItem += '<div class="person-avatar">';
-            personItem += '<img class="img-fluid" src="' + image + '" alt="">';
+            personItem += '<div class="avatar" style="background-image: url(' + image + ')"></div>';
+            personItem += '<img id="openOverlay" class="img-fluid d-hidden-m" src="' + image + '" alt="">';
             personItem += '</div>';
             personItem += '</div>';
             personItem += '<div class="detail">';
@@ -88,6 +92,25 @@ function Person(id) {
             personItem += '</div>';
             person.innerHTML += personItem;
 
+            var image_link = document.getElementById("image_link");
+            image_link.innerHTML = '<a class="nav-link" href="../../Blade/People/image.html?id='+id+'&name='+Person.name+'&image='+image+'" title="Images">Images</a>';
+
+            var popupImage = document.getElementById("popupImage");
+            popupImage.innerHTML = '<img class="img-fluid" src="https://image.tmdb.org/t/p/w600_and_h900_bestv2'+Person.profile_path + '">'
+            var popup = document.getElementById('popup');
+            var overlay = document.getElementById('backgroundOverlay');
+            var openButton = document.getElementById('openOverlay');
+            document.onclick = function (e) {
+                console.log(e.target.id)
+                if (e.target.id === 'backgroundOverlay') {
+                    popup.style.display = 'none';
+                    overlay.style.display = 'none';
+                }
+                if (e.target === openButton) {
+                    popup.style.display = 'block';
+                    overlay.style.display = 'block';
+                }
+            };
 
         }
     };
@@ -105,10 +128,10 @@ function Movie_credit(id) {
             var credit = JSON.parse(xmlhttp.responseText);
             for (var i = 0; i < 6; i++) {
                 var credit_item = '<div class="credit_card">';
-                credit_item += '<a href="../../Blade/Movies/Detail.html?id='+credit.cast[i].id +'"><div class="image_credit">';
+                credit_item += '<a href="../../Blade/Movies/Detail.html?id=' + credit.cast[i].id + '"><div class="image_credit">';
                 credit_item += '<img src="https://image.tmdb.org/t/p/w150_and_h225_bestv2' + credit.cast[i].poster_path + '" alt="">';
                 credit_item += '</div></a>';
-                credit_item += '<a class="name_credit" href="../../Blade/Movies/Detail.html?id='+credit.cast[i].id +'"><p>'+credit.cast[i].original_title+'</p></a>';
+                credit_item += '<a class="name_credit" href="../../Blade/Movies/Detail.html?id=' + credit.cast[i].id + '"><p>' + credit.cast[i].original_title + '</p></a>';
                 credit_item += '</div>';
                 list_credit.innerHTML += credit_item;
 

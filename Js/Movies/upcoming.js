@@ -14,11 +14,11 @@ xmlhttp.onreadystatechange = function () {
             item += '<img class="img-fluid" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/'+ obj.results[i].poster_path+'" alt="">';
             item += '</div>';
             item += '<div class="info">';
-            item += '<a href="#"> <h3 class="pd-l title-movie" ><a href="../../Blade/Movies/Detail.html?id='+obj.results[i].id+'"> '+obj.results[i].title +'</h3></a>';
-            item += '<p class="pd-l time">'+ obj.results[i].release_date+'</p>';
-            item += ' <p class="info-content pd-l d-hidden-l time"> '+obj.results[i].overview+'</p>';
+            item += '<a href="#"> <h3 class="title-movie" ><a href="../../Blade/Movies/Detail.html?id='+obj.results[i].id+'"> '+obj.results[i].title +'</h3></a>';
+            item += '<p class="time">'+ obj.results[i].release_date+'</p>';
+            item += ' <p class="info-content d-hidden-l time"> '+obj.results[i].overview+'</p>';
             item += '<div class="more-info">';
-            item += '<a class="pd-l" href="../../Blade/Movies/Detail.html?id='+obj.results[i].id+'">More info</a>';
+            item += '<a href="../../Blade/Movies/Detail.html?id='+obj.results[i].id+'">More info</a>';
             item += '</div>';
             item += '</div>';
             item += '</div>';
