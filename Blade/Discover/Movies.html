@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Discover</title>
     <link rel="stylesheet" href="../../Css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -45,19 +45,19 @@
 
                     </li>
                     <li class="nav-item">
-                        <a href="../Discover/Movies.html" class="nav-link">Discover</a>
+                        <a href="Movies.html" class="nav-link">Discover</a>
                         <ul class="d-flex nav-bar nav-hover">
-                            <li class="item-hover"><a class="item-link" href="../Discover/Movies.html">Movies</a></li>
-                            <li class="item-hover"><a class="item-link" href="../Discover/TvShows.html">TV Shows</a></li>
+                            <li class="item-hover"><a class="item-link" href="Movies.html">Movies</a></li>
+                            <li class="item-hover"><a class="item-link" href="TvShows.html">TV Shows</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Movies</a>
                         <ul class="d-flex nav-bar nav-hover">
-                            <li class="item-hover"><a class="item-link" href="Popular.html">Popular</a></li>
-                            <li class="item-hover"><a class="item-link" href="TopRate.html">Top Rated</a></li>
-                            <li class="item-hover"><a class="item-link" href="UpComing.html">Upcoming</a></li>
-                            <li class="item-hover"><a class="item-link" href="Nowplaying.html">Now Playing</a>
+                            <li class="item-hover"><a class="item-link" href="../Movies/Popular.html">Popular</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/TopRate.html">Top Rated</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/UpComing.html">Upcoming</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/Nowplaying.html">Now Playing</a>
                             </li>
                         </ul>
                     </li>
@@ -66,8 +66,8 @@
                         <ul class="d-flex nav-bar nav-hover">
                             <li class="item-hover"><a class="item-link" href="../Tv/Popular.html">Popular</a></li>
                             <li class="item-hover"><a class="item-link" href="../Tv/TopRate.html">Top Rated</a></li>
-                            <li class="item-hover"><a class="item-link" href="../Tv/OnTv.html">On TV</a></li>
-                            <li class="item-hover"><a class="item-link" href="../Tv/Airing.html">Airing Today</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Tv/#">On TV</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Tv/#">Airing Today</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -105,19 +105,19 @@
             <div id="menu-respon" class="responsive-menu container">
                 <ul class="lst-none nav-mobile d-none">
                     <li class="nav-mobile-item">
-                        <a class="no_click text" onclick="Discover()" href="Popular.html">Discover</a>
+                        <a class="no_click text" onclick="Discover()" href="#">Discover</a>
                         <ul class="sub-menu discover d-none">
-                            <li><a class="item-link" href="Popular.html">Movies</a></li>
-                            <li><a class="item-link" href="../Tv/Popular.html">TV Shows</a></li>
+                            <li><a class="item-link" href="../Discover/Movies.html">Movies</a></li>
+                            <li><a class="item-link" href="../Discover/TvShows.html">TV Shows</a></li>
                         </ul>
                     </li>
                     <li class="nav-mobile-item">
                         <a class="no_click text" onclick="Movies()" href="#">Movies</a>
                         <ul class="sub-menu movie d-none">
-                            <li><a class="item-link" href="Movies/Popular.html">Popular</a></li>
-                            <li><a class="item-link" href="Movies/TopRate.html">Top Rated</a></li>
-                            <li><a class="item-link" href="Movies/UpComing.html">Upcoming</a></li>
-                            <li><a class="item-link" href="Movies/Nowplaying.html">Now Playing</a></li>
+                            <li><a class="item-link" href="../Movies/Popular.html">Popular</a></li>
+                            <li><a class="item-link" href="../Movies/TopRate.html">Top Rated</a></li>
+                            <li><a class="item-link" href="../Movies/UpComing.html">Upcoming</a></li>
+                            <li><a class="item-link" href="../Movies/Nowplaying.html">Now Playing</a></li>
                         </ul>
                     </li>
                     <li class="nav-mobile-item">
@@ -125,8 +125,8 @@
                         <ul class="sub-menu tv d-none">
                             <li><a class="item-link" href="../Tv/Popular.html">Popular</a></li>
                             <li><a class="item-link" href="../Tv/TopRate.html">Top Rated</a></li>
-                            <li><a class="item-link" href="../Tv/OnTv.html">On TV</a></li>
-                            <li><a class="item-link" href="../Tv/Airing.html">Airing Today</a></li>
+                            <li><a class="item-link" href="/Tv/#">On TV</a></li>
+                            <li><a class="item-link" href="#">Airing Today</a></li>
                         </ul>
                     </li>
                     <li class="nav-mobile-item">
@@ -171,26 +171,76 @@
         </div>
     </div>
 </header>
-<main>
-    <div  class="container">
-        <h2 class="title-article">Now Playing Movies</h2>
+<main class="Discover-page">
+    <div class="container">
+        <h2 class="title-article">Discover New Movies & TV Shows
+            <a href="Movies.html">Movies</a>
+            <a href="TvShows.html">TV Shows</a>
+        </h2>
+        <div class="filter_nav">
+            <div class="filer_item">
+                <p>Year</p>
+                <div class="custom-select">
+                    <select id="filter_year" class="select_default">
+                        <option value="1">2018</option>
+                        <option value="2">2017</option>
+                        <option value="3">2016</option>
+                        <option value="4">2015</option>
+                        <option value="5">2014</option>
+                        <option value="6">2013</option>
+                        <option value="7">2012</option>
+                        <option value="8">2011</option>
+                        <option value="9">2010</option>
+                        <option value="10">2009</option>
+                        <option value="11">2008</option>
+                        <option value="12">2007</option>
+                        <option value="13">2006</option>
+                        <option value="14">2005</option>
+                        <option value="15">2004</option>
+                        <option value="16">2003</option>
+                        <option value="17">2002</option>
+                        <option value="18">2001</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filer_item">
+                <p>Sort By</p>
+                <div class="custom-select">
+                    <select id="Sort" class="select_default">
+                        <option value="1">Popularity Descending</option>
+                        <option value="2">Popularity Ascending</option>
+                        <option value="3">Rating Descending</option>
+                        <option value="4">Rating Ascending</option>
+                        <option value="5">Release Date Descending</option>
+                        <option value="6">Release Date Ascending</option>
+                        <option value="7">Title (A-Z)</option>
+                        <option value="8">Title (Z-A)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filer_item">
+                <p>Geners</p>
+                <div class="custom-select filer_geners">
+                    <select class="select_default ">
+                        <option value="1">Action</option>
+                        <option value="2">Adventure</option>
+                        <option value="3">Animation</option>
+                        <option value="4">Comedy</option>
+                        <option value="5">Crime</option>
+                        <option value="6">Documentary</option>
+                        <option value="7">Drama</option>
+                        <option value="8">Family</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filer_item">
+                <p>Keywords</p>
+                <div>
+                    <input class="keyword" type="text" placeholder="Filter by keywords...">
+                </div>
+            </div>
+        </div>
         <div id="test" class="list-movie">
-            <!--<div class="movie-card">-->
-            <!--<div class="img-movie">-->
-            <!--<img class="img-fluid" src="../Assets/Venom.jpg" alt="">-->
-            <!--</div>-->
-            <!--<div class="info">-->
-            <!--<h3 class="pd-l">Venom</h3>-->
-            <!--<p class="pd-l ">October 5,2018</p>-->
-            <!--<p class="info-content pd-l d-hidden-l"> Eddie Brock is a reporter—investigating people who want to go-->
-            <!--unnoticed. But after he makes a-->
-            <!--terrible discovery at the Life Foundation, he begins to transform into ‘Venom’. The Foundation has-->
-            <!--discovered creatures…</p>-->
-            <!--<div class="more-info">-->
-            <!--<a class="pd-l" href="#">More info</a>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--</div>-->
 
         </div>
 
@@ -263,7 +313,8 @@
         </div>
     </div>
 </footer>
-<script src="../../Js/Movies/nowplaying.js"></script>
+<script src="../../Js/Movies/popular.js"></script>
 <script src="../../Js/index.js"></script>
+<script src="../../Js/Discover/Discover.js"></script>
 </body>
 </html>

@@ -46,8 +46,8 @@
                     <li class="nav-item">
                         <a href="../Discover/Movies.html" class="nav-link">Discover</a>
                         <ul class="d-flex nav-bar nav-hover">
-                            <li class="item-hover"><a class="item-link" href="../Discover/Movies.html">Movies</a></li>
-                            <li class="item-hover"><a class="item-link" href="../Discover/TvShows.html">TV Shows</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/Popular.html">Movies</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Tv/Popular.html">TV Shows</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -55,18 +55,18 @@
                         <ul class="d-flex nav-bar nav-hover">
                             <li class="item-hover"><a class="item-link" href="Popular.html">Popular</a></li>
                             <li class="item-hover"><a class="item-link" href="TopRate.html">Top Rated</a></li>
-                            <li class="item-hover"><a class="item-link" href="UpComing.html">Upcoming</a></li>
-                            <li class="item-hover"><a class="item-link" href="Nowplaying.html">Now Playing</a>
+                            <li class="item-hover"><a class="item-link" href="Airing.html">Upcoming</a></li>
+                            <li class="item-hover"><a class="item-link" href="OnTv.html">Now Playing</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">TvShows</a>
                         <ul class="d-flex nav-bar nav-hover">
-                            <li class="item-hover"><a class="item-link" href="../Tv/Popular.html">Popular</a></li>
-                            <li class="item-hover"><a class="item-link" href="../Tv/TopRate.html">Top Rated</a></li>
-                            <li class="item-hover"><a class="item-link" href="../Tv/OnTv.html">On TV</a></li>
-                            <li class="item-hover"><a class="item-link" href="../Tv/Airing.html">Airing Today</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">Popular</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">Top Rated</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">On TV</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">Airing Today</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -104,9 +104,9 @@
             <div id="menu-respon" class="responsive-menu container">
                 <ul class="lst-none nav-mobile d-none">
                     <li class="nav-mobile-item">
-                        <a class="no_click text" onclick="Discover()" href="Popular.html">Discover</a>
+                        <a class="no_click text" onclick="Discover()" href="../Movies/Popular.html">Discover</a>
                         <ul class="sub-menu discover d-none">
-                            <li><a class="item-link" href="Popular.html">Movies</a></li>
+                            <li><a class="item-link" href="../Movies/Popular.html">Movies</a></li>
                             <li><a class="item-link" href="../Tv/Popular.html">TV Shows</a></li>
                         </ul>
                     </li>
@@ -122,10 +122,10 @@
                     <li class="nav-mobile-item">
                         <a class="no_click text" onclick="TvShow()" href="#">TV Shows</a>
                         <ul class="sub-menu tv d-none">
-                            <li><a class="item-link" href="../Tv/Popular.html">Popular</a></li>
-                            <li><a class="item-link" href="../Tv/TopRate.html">Top Rated</a></li>
-                            <li><a class="item-link" href="../Tv/OnTv.html">On TV</a></li>
-                            <li><a class="item-link" href="../Tv/Airing.html">Airing Today</a></li>
+                            <li><a class="item-link" href="/tv">Popular</a></li>
+                            <li><a class="item-link" href="/tv/top-rated">Top Rated</a></li>
+                            <li><a class="item-link" href="/tv/on-the-air">On TV</a></li>
+                            <li><a class="item-link" href="/tv/airing-today">Airing Today</a></li>
                         </ul>
                     </li>
                     <li class="nav-mobile-item">
@@ -171,37 +171,6 @@
     </div>
 </header>
 <main class="movie-page">
-    <div class="mobile_nav">
-        <ul class="short_bar_mobile">
-            <li class="nav-item discussions">
-                <a class="nav-link" href="#" title="Discussions">Discussions</a>
-                <i class="fas fa-sort-down"></i>
-                <div class="drop-down">
-                    <a class="drop-link" href="#">General</a>
-                    <a class="drop-link" href="#">Content Issues</a>
-                </div>
-            </li>
-            <li class="nav-item image_link"><a class="nav-link" href="#" title="Reviews">Reviews</a></li>
-            <li class="nav-item discussions"><a class="nav-link" href="#" title="Videos">Videos</a>
-                <i class="fas fa-sort-down"></i>
-                <div class="drop-down">
-                    <a class="drop-link" href="#">General</a>
-                    <a class="drop-link" href="#">Content Issues</a>
-                </div>
-            </li>
-            <li class="nav-item discussions"><a class="nav-link" href="#" title="Images">Images</a>
-                <i class="fas fa-sort-down"></i>
-                <div class="drop-down">
-                    <a class="drop-link" href="#">General</a>
-                    <a class="drop-link" href="#">Content Issues</a>
-                </div>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#" title="Changes">Changes</a></li>
-            <li class="nav-item"><a class="nav-link" href="#" title="Report">Report</a></li>
-            <li class="nav-item"><a class="nav-link" href="#" title="Share">Share</a></li>
-            <li class="nav-item"><a class="nav-link" href="/person/1245-scarlett-johansson/edit?active_nav_item=primary_facts&amp;language=en-US" title="Edit">Edit</a></li>
-        </ul>
-    </div>
     <div class="details-movie">
         <div class="thumbnail-movies"
              style="background-image: url('https://image.tmdb.org/t/p/w1400_and_h450_face/48bEcwPgFZzNl32CGhOv328keZl.jpg');"></div>
@@ -263,39 +232,22 @@
             </div>
         </div>
     </div>
-    <div class="shortcut_nav d-hidden-m">
+    <div class="content_wrapper">
         <div class="container">
             <ul class="shortcut_bar">
-                <li class="nav-item discussions">
-                    <a class="nav-link" href="#" title="Discussions">Discussions</a>
-                    <i class="fas fa-sort-down"></i>
-                    <div class="drop-down">
-                        <a class="drop-link" href="#">General</a>
-                        <a class="drop-link" href="#">Content Issues</a>
-                    </div>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#" title="Reviews">Reviews</a></li>
-                <li class="nav-item discussions"><a class="nav-link" href="#" title="Videos">Videos</a>
-                    <i class="fas fa-sort-down"></i>
-                    <div class="drop-down">
-                        <a class="drop-link" href="#">Trailer</a>
-                        <a class="drop-link" href="#">Teaser</a>
-                        <a class="drop-link" href="#">Clip</a>
-                        <a class="drop-link" href="#">Featuretts</a>
-                    </div>
-                </li>
-                <li class="nav-item discussions"><a class="nav-link" href="#" title="Images">Images</a>
-                    <i class="fas fa-sort-down"></i>
-                    <div class="drop-down">
-                        <a class="drop-link" href="#">Backdrops</a>
-                        <a class="drop-link" href="#">Poster</a>
-                    </div>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#" title="Changes">Changes</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" title="Report">Report</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" title="Share">Share</a></li>
-                <li class="nav-item"><a class="nav-link" href="" title="Edit">Edit</a></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Discussions">Discussions</a> <i
+                        class="fas fa-sort-down"></i></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Reviews">Reviews</a></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Videos">Videos</a> <i
+                        class="fas fa-sort-down"></i></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Images">Images</a> <i
+                        class="fas fa-sort-down"></i></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Changes">Changes</a></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Report">Report</a></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Share">Share</a></li>
+                <li class="sub-item"><a class="sub-link" href="#" title="Edit">Edit</a></li>
             </ul>
+
         </div>
 
     </div>
@@ -477,6 +429,6 @@
     </div>
 </footer>
 <script src="../../Js/index.js"></script>
-<script src="../../Js/Movies/detail.js"></script>
+<script src="../../Js/TvShow/tv_detail.js"></script>
 </body>
 </html>
