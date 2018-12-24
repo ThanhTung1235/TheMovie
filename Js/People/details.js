@@ -76,7 +76,7 @@ function Person(id) {
             personItem += '<div class="detail-thumbnail">';
             personItem += '<div class="person-avatar">';
             personItem += '<div class="avatar" style="background-image: url(' + image + ')"></div>';
-            personItem += '<img id="openOverlay" class="img-fluid d-hidden-m" src="' + image + '" alt="">';
+            personItem += '<div class="thumbnail-hov"><img id="openOverlay" class="img-fluid d-hidden-m " src="' + image + '" alt=""></div>';
             personItem += '</div>';
             personItem += '</div>';
             personItem += '<div class="detail">';
@@ -90,8 +90,14 @@ function Person(id) {
             personItem += '</div>';
             person.innerHTML += personItem;
 
-            var image_link = document.getElementById("image_link");
-            image_link.innerHTML = '<a class="nav-link" href="../../Blade/People/image.html?id='+id+'&name='+Person.name+'&image='+image+'" title="Images">Images</a>';
+            var image_link = document.getElementsByClassName("image_link");
+            // console.log(image_link.length);
+            for (var i = 0; i < image_link.length; i++) {
+                var image_item = '<a class="nav-link" href="../../Blade/People/image.html?id='+id+'&name='+Person.name+'&image='+image+'" title="Images">Images</a>';
+                image_link[i].innerHTML += image_item;
+                // console.log(image_link[i]);
+            }
+
 
             var popupImage = document.getElementById("popupImage");
             popupImage.innerHTML = '<img class="img-fluid" src="https://image.tmdb.org/t/p/w600_and_h900_bestv2'+Person.profile_path + '">'

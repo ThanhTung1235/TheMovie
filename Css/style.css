@@ -549,12 +549,15 @@ footer {
     width: 48%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     margin-top: 30px;
+    height: 278px;
+    overflow: hidden;
 }
 
 .list-movie {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .time {
@@ -866,7 +869,11 @@ footer {
 
 .person-avatar > img {
     border-radius: 8px;
+    position: relative;
+    visibility: visible;
+
 }
+
 
 .person-name {
     font-weight: 800;
@@ -1054,11 +1061,12 @@ p.title-feature {
 .info_actor p:last-child {
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 15px;
 }
 
 .info_actor p:first-child > a {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 15px;
     padding-bottom: 5px;
     color: #081C24;
 }
@@ -1284,7 +1292,10 @@ p.title-feature {
     bottom: 0;
     background-color: rgba(24, 24, 25, 0.67);
 }
-
+#openOverlay{
+    cursor: pointer;
+    border-radius: 8px;
+}
 #popup {
     background-color: #fff;
     width: 1000px;
@@ -1470,6 +1481,7 @@ p.title-feature {
     .movie-card {
         display: block;
         width: 30%;
+        height: auto;
     }
 
     .search-cards .movie-card {
@@ -1760,10 +1772,6 @@ p.title-feature {
 }
 
 @media only screen and (max-width: 500px) {
-    .movie-card {
-        width: 100%;
-    }
-
     .search-card {
         display: block;
     }
@@ -1775,10 +1783,6 @@ p.title-feature {
 }
 
 @media only screen and (max-width: 440px) {
-    .movie-card {
-        width: 100%;
-    }
-
     .person-card {
         width: 100%;
         height: 22%;
