@@ -25,7 +25,7 @@ function change_link(key_word) {
     var movie = document.getElementById("movie");
     movie.innerHTML ='<a class="search-link" href="../Movies/Search.html?key_word='+key_word+'">Movies</a>';
     var tv = movie.nextElementSibling;
-    tv.innerHTML = '<a class="search-link" href="../Tv/tv_search.html?key_word='+key_word+'">TV Shows</a>';
+    tv.innerHTML = '<a class="search-link" href="../Tv/Search.html?key_word='+key_word+'">TV Shows</a>';
     var people = tv.nextElementSibling;
     people.innerHTML = '<a class="search-link" href="../People/people_search.html?key_word='+key_word+'">People</a>';
     var company = people.nextElementSibling;

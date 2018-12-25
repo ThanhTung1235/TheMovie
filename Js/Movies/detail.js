@@ -5,8 +5,81 @@ window.addEventListener("DOMContentLoaded", function () {
     trailer_movie(id);
     keyword(id);
     recommendations(id);
+    
+    var data_discussions =  document.querySelectorAll("[data-menu='sub_menu_discussions']")[0];
+    var data_image = document.querySelectorAll("[data-menu='sub_menu_image']")[0];
+    var data_video = document.querySelectorAll("[data-menu='sub_menu_video']")[0];
+    var discussions = document.getElementById("sub_menu_discussions");
+    var videos = document.getElementById("sub_menu_videos");
+    var images = document.getElementById("sub_menu_images");
+    var short_bar = document.getElementsByClassName("short_bar_mobile")[0];
+    var _overlay = document.getElementById("Overlay");
+        data_discussions.onclick = function () {
+            if (!discussions.classList.contains("active-drop-down")){
+                if (videos.classList.contains("active-drop-down") || images.classList.contains("active-drop-down")){
+                    videos.classList.remove("active-drop-down");
+                    images.classList.remove("active-drop-down");
+                }
+                discussions.classList.add("active-drop-down");
+                _overlay.style.display = "block";
+                var a = this.offsetLeft;
+                discussions.style.left = a+'px';
+                short_bar.onscroll = function () {
+                    var _positionScroll = this.scrollLeft;
+                    discussions.style.left = a - _positionScroll+'px';
+                };
+            } else {
+                discussions.classList.remove("active-drop-down");
+                
+            }
+            document.onclick = function (ev) {
+                console.log(ev.target)
+                if (ev.target.id == 'Overlay') {
+                    _overlay.style.display = "none";
+                    discussions.classList.remove("active-drop-down");
+                    images.classList.remove("active-drop-down");
+                    videos.classList.remove("active-drop-down");
+                }
+            }; 
 
+        };
 
+    data_image.onclick = function () {
+        if (!images.classList.contains("active-drop-down")){
+            if (videos.classList.contains("active-drop-down") || discussions.classList.contains("active-drop-down")){
+                videos.classList.remove("active-drop-down");
+                discussions.classList.remove("active-drop-down");
+            }
+            images.classList.add("active-drop-down");
+            _overlay.style.display = "block";
+            var a = this.offsetLeft;
+            images.style.left = a +'px';
+            short_bar.onscroll = function () {
+                var _positionScroll = this.scrollLeft;
+                images.style.left = a - _positionScroll+'px';
+            };
+        } else {
+            images.classList.remove("active-drop-down");
+        }
+    };
+    data_video.onclick = function () {
+        if (!videos.classList.contains("active-drop-down")){
+            if (discussions.classList.contains("active-drop-down") || images.classList.contains("active-drop-down")){
+                discussions.classList.remove("active-drop-down");
+                images.classList.remove("active-drop-down");
+            }
+            videos.classList.add("active-drop-down");
+            _overlay.style.display = "block";
+            var a = this.offsetLeft;
+            videos.style.left = a +'px';
+            short_bar.onscroll = function () {
+                var _positionScroll = this.scrollLeft;
+                videos.style.left = a - _positionScroll+'px';
+            };
+        } else {
+            videos.classList.remove("active-drop-down");
+        }
+    };
 });
 
 function movie_detail(id) {
