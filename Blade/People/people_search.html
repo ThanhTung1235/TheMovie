@@ -3,8 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../Css/style.css">
 </head>
 <body>
+<header>
+    <nav class="nav">
+        <div class="container d-hidden">
+            <div class="d-flex">
+                <div></div>
+                <ul class="nav-small d-flex">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">apps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">leaderboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">contribute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">api</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">support</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex">
+                <ul class="d-flex nav-bar">
+                    <li class="logo">
+                        <a href="../Index.html">
+                            <img class="img-fluid" src="../../Assets/Logo-sm.png" alt="">
+                        </a>
 
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Discover</a>
+                        <ul class="d-flex nav-bar nav-hover">
+                            <li class="item-hover"><a class="item-link" href="#">Movies</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">TV Shows</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Movies</a>
+                        <ul class="d-flex nav-bar nav-hover">
+                            <li class="item-hover"><a class="item-link" href="../Movies/Popular.html">Popular</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/TopRate.html">Top Rated</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/UpComing.html">Upcoming</a></li>
+                            <li class="item-hover"><a class="item-link" href="../Movies/Nowplaying.html">Now Playing</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">TvShows</a>
+                        <ul class="d-flex nav-bar nav-hover">
+                            <li class="item-hover"><a class="item-link" href="#">Popular</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">Top Rated</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">On TV</a></li>
+                            <li class="item-hover"><a class="item-link" href="#">Airing Today</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">People</a>
+                        <ul class="d-flex nav-bar nav-hover">
+                            <li class="item-hover"><a class="item-link" href="Person.html">Popular People</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav-right nav-bar d-flex">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="fas fa-plus"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                        <span class="btn-language">
+                            EN
+                        </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="fas fa-bell"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="fas fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-mobile container d-flex">
+            <div class="menu-icon">
+                <i id="btn-bars" class="fas fa-bars mr-l2"></i>
+            </div>
+            <div id="menu-respon" class="responsive-menu container">
+                <ul class="lst-none nav-mobile d-none">
+                    <li class="nav-mobile-item">
+                        <a class="no_click text" onclick="Discover()" href="#">Discover</a>
+                        <ul class="sub-menu discover d-none">
+                            <li><a class="item-link" href="../Discover">Movies</a></li>
+                            <li><a class="item-link" href="../Discover">TV Shows</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a class="no_click text" onclick="Movies()" href="#">Movies</a>
+                        <ul class="sub-menu movie d-none">
+                            <li><a class="item-link" href="../Movies/Popular.html">Popular</a></li>
+                            <li><a class="item-link" href="../Movies/TopRate.html">Top Rated</a></li>
+                            <li><a class="item-link" href="../Movies/UpComing.html">Upcoming</a></li>
+                            <li><a class="item-link" href="../Movies/Nowplaying.html">Now Playing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a class="no_click text" onclick="TvShow()" href="#">TV Shows</a>
+                        <ul class="sub-menu tv d-none">
+                            <li><a class="item-link" href="../tv">Popular</a></li>
+                            <li><a class="item-link" href="../tv/top-rated">Top Rated</a></li>
+                            <li><a class="item-link" href="../tv/on-the-air">On TV</a></li>
+                            <li><a class="item-link" href="../tv/airing-today">Airing Today</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a class="no_click text" onclick="People()" href="#">People</a>
+                        <ul class="sub-menu people d-none">
+                            <li><a class="item-link" href="Person.html">Popular People</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-mobile-item">
+                        <a class="text" href="/discuss">Discussions</a>
+                    </li>
+                    <ul class="lst-none nav-small pd-l2">
+                        <li class="nav-item mr-t3"><a class="nav-link" href="/bible">Contribution Bible</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/apps">Apps</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/discuss">Forums</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/leaderboard">Leaderboard</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/contribute">Contribute</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/documentation/api">API</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/talk">Support</a></li>
+                        <li class="nav-item mr-t"><a class="nav-link" href="/about">About</a></li>
+                    </ul>
+                </ul>
+            </div>
+            <div style="margin: auto">
+                <img width="50" src="../../Assets/Logo-sm.png" alt="Logo">
+            </div>
+            <div>
+                <i class="menu-icon mr-2 fas fa-bell"></i>
+                <i class="menu-icon fas fa-user"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="search">
+        <div class="container d-flex">
+            <span id="btn-search">
+                <a href="Movies/Search.html"><i class="fas fa-search search-icon"></i></a>
+            </span>
+            <input class="search-input" onkeypress="enter_to_search(event)" id="txt_search"
+                   placeholder="Search for movie, tv show, person..." type="text">
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container search-page">
+        <div class="row">
+            <div class="col-3 col-sm">
+                <ul id="search_nav" class="search-nav">
+                    <li id="movie" class="search-item search_active"><a class="search-link" href="#">Movie</a></li>
+                    <li class="search-item"><a class="search-link" href="#">TV Shows</a></li>
+                    <li class="search-item"><a class="search-link" href="#">People</a></li>
+                    <li class="search-item"><a class="search-link" href="#">Companies</a></li>
+                    <li class="search-item"><a class="search-link" href="#">Keywords</a></li>
+                    <li class="search-item"><a class="search-link" href="#">Collection</a></li>
+                    <li class="search-item"><a class="search-link" href="#">Networks</a></li>
+                </ul>
+            </div>
+            <div class="col-9 col-sm ">
+                <h2>Search <i class="fas fa-chevron-right"></i> People Results</h2>
+                <div id="content-search" class="search-cards">
+                    <div class="people-card">
+                        <div class="image-people">
+                            <img class="img-fluid" src="../../Assets/Noavatar.jpg" alt="">
+                        </div>
+                        <div class="people-info">
+                            <h2>Amber</h2>
+                            <p>Acting - Mama June:From Hà Đông with love</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container footer-content">
+        <div class="row">
+            <div class="col-4 col-sm">
+                <div class="logo-footer">
+                    <img class="d-hidden" src="../../Assets/Logo-sm.png" alt="">
+                    <div class="btn-user">
+                        <a href="#">Hi User !</a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-2 col-sm">
+                <h3 class="footer-title">THE BASICS</h3>
+                <ul class="footer-items">
+                    <li class="footer-item"><a class="footer-link" href="#">About TMB</a></li>
+                    <li class="footer-item"><a class="footer-link" href="#">Contact Us</a></li>
+                    <li class="footer-item"><a class="footer-link" href="#">Support Forums</a></li>
+                    <li class="footer-item"><a class="footer-link" href="#">Api</a></li>
+                    <li class="footer-item"><a class="footer-link" href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-2 col-sm">
+                <h3 class="footer-title">GET INVOLVED</h3>
+                <ul class="footer-items">
+                    <li class="footer-item"><a class="footer-link" href="/bible?language=en-US"><span
+                            class="glyphicons glyphicons-asterisk"></span> Contribution Bible</a></li>
+                    <li class="footer-item"><a class="footer-link" href="/apps?language=en-US">3rd Party
+                        Applications</a></li>
+                    <li class="footer-item"><a class="footer-link" href="/movie/new?language=en-US">Add New Movie</a>
+                    </li>
+                    <li class="footer-item"><a class="footer-link" href="/tv/new?language=en-US">Add New TV Show</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2 col-sm">
+                <h3 class="footer-title">COMMUNITY</h3>
+                <ul class="footer-items">
+                    <li class="footer-item"><a class="footer-link"
+                                               href="/documentation/community/guidelines?language=en-US">Guidelines</a>
+                    </li>
+                    <li class="footer-item"><a class="footer-link" href="/leaderboard?language=en-US">Leaderboard</a>
+                    </li>
+                    <li class="footer-item"><a class="footer-link" href="/discuss?language=en-US">Forums</a></li>
+                    <li class="footer-item"><a class="footer-link" href="https://twitter.com/themoviedb" target="_blank"
+                                               rel="noopener">Twitter</a></li>
+                    <li class="footer-item"><a class="footer-link" href="https://www.facebook.com/themoviedb"
+                                               target="_blank" rel="noopener">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="col-2 col-sm">
+                <h3 class="footer-title">LEGAL</h3>
+                <ul class="footer-items">
+                    <li class="footer-item"><a class="footer-link"
+                                               href="/documentation/website/terms-of-use?language=en-US">Terms of
+                        Use</a></li>
+                    <li class="footer-item"><a class="footer-link" href="/privacy-policy?language=en-US">Privacy
+                        Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="../../Js/index.js"></script>
+<script src="../../Js/People/search.js"></script>
+<script src="../../Js/Movies/search_active.js"></script>
 </body>
 </html>

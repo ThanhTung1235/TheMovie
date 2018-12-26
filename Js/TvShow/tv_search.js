@@ -18,8 +18,8 @@ function searchs(key_word) {
             console.log(search_arr.results);
             for (var i = 0; i < search_arr.results.length; i++) {
                 var image = "https://image.tmdb.org/t/p/w185_and_h278_bestv2" + search_arr.results[i].poster_path;
-                if (search_arr.results[i].poster_path == null || search_arr.results[i].poster_path.length == 0) {
-                    image = "../../Assets/Noavatar.jpg";
+                if (search_arr.results[i].poster_path == null) {
+                    image = "../../Assets/nullMoive.png";
                 }
                 // console.log(image);
                 var content = document.getElementById("content-search");

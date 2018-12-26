@@ -317,7 +317,9 @@ header {
 /**/
 
 /*main*/
-
+.index-page{
+    padding-bottom: 50px;
+}
 .banner {
     background-image: radial-gradient(at 30% top, rgba(31, 40, 73, 1) 0%, rgba(8, 28, 36, 1) 70%);
     display: block;
@@ -945,7 +947,7 @@ footer {
 }
 
 .search-page {
-    padding-top: 40px;
+    padding: 50px 0;
 }
 
 .search-link {
@@ -961,7 +963,7 @@ footer {
 
 .search-cards .movie-card .more-info {
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     z-index: 1;
     width: 75%;
     right: 0;
@@ -972,7 +974,8 @@ footer {
 }
 
 .search-cards .info-content {
-    height: 200px;
+    height: 140px;
+    overflow: hidden;
 }
 
 .keyword {
@@ -1629,6 +1632,39 @@ p.title-feature {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+/**/
+/*people search*/
+.people-card{
+    margin-top: 20px;
+}
+.people-card:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.image-people{
+    float: left;
+    width: 90px;
+    margin-right: 20px;
+}
+.image-people img{
+    border-radius: 8px;
+}
+.people-info{
+    padding-top: 15px;
+}
+.people-name a{
+    text-decoration: none;
+    color: #081c24;
+}
+/**/
+/*company search*/
+.item-search{
+    border-top: 1px solid #ccc;
+    padding: 15px 0;
+}
 /**/
 @media only screen and (max-width: 1440px) {
     .column_grey {
